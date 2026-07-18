@@ -1,0 +1,914 @@
+
+{
+    "takeoff_data": [
+        {
+            "document_id": "f2277f8c-82ac-414c-bedb-1bb4084afc4f",
+            "images_folder_path": "projects/project_d219d90a-275e-4824-9aa5-d7106cb485c1/f2277f8c-82ac-414c-bedb-1bb4084afc4f/images",
+            "thumbnails_folder_path": "projects/project_d219d90a-275e-4824-9aa5-d7106cb485c1/f2277f8c-82ac-414c-bedb-1bb4084afc4f/thumbnails"
+        }
+    ],
+    "rfp_data": {
+        "overview": {
+            "dashboard_items": {
+                "gaps": 25,
+                "risks": 25,
+                "go_no_go": 15,
+                "pages_analyzed": 468,
+                "ai_confidence": 94
+            },
+            "project_overview": {
+                "project_title": "A New Building for Dalton Police Department",
+                "owner": "City of Dalton, GA",
+                "address": "301 Jones Street, Dalton GA 30720",
+                "delivery_model": "Design-Bid-Build (DBB)",
+                "contact_person": "Captain Barry Woods",
+                "contact_email": "bwoods@daltonga.gov"
+            },
+            "scope_of_work": {
+                "new_buildings": [
+                    "Construction of a two story, free-standing addition to the existing Dalton Police Department building.",
+                    "Construction of a new building for Dalton Police Department at 301 Jones Street, Dalton GA 30720",
+                    "Install sanitary sewer piping and structures conforming to local and GDOT standards",
+                    "Install precast reinforced concrete manholes, junctions, and structures with watertight joints"
+                ],
+                "demolition": [
+                    "Site clearing and demolition as indicated in Division 2 \u2013 Sitework, including removal and disposal of rock and unsuitable soil.",
+                    "Removal of surface debris, trees, and vegetation not designated to remain",
+                    "Topsoil excavation"
+                ],
+                "site_improvements": [
+                    "Earthwork, erosion control, asphaltic concrete pavement, Portland cement concrete paving, pavement marking and traffic signs, storm sewer, water system, sanitary sewerage, fencing, lawns, grassing and landscaping.",
+                    "Removal and disposal of mass rock, trench rock, and unsuitable soil on and off site",
+                    "Hauling and placement of suitable soil, stone (#4, #57), rip rap, compacted graded aggregate base",
+                    "Placement of Tensar BX 1100 Geogrid or approved equal"
+                ],
+                "restore_repair": [
+                    "Repair damaged construction and restore substrates and finishes after testing and inspecting",
+                    "Restore patched areas and extend restoration into adjoining areas with durable seams",
+                    "Repair and protection are Contractor's responsibility regardless of assignment of quality-control services"
+                ],
+                "expansion": [
+                    "Install control and expansion joint materials in unit masonry as masonry progresses",
+                    "Form control joints in concrete masonry using preformed control-joint gaskets",
+                    "Form expansion joints in brick with metal expansion strips and open joints for sealant installation",
+                    "Provide horizontal pressure-relieving joints beneath shelf angles supporting masonry"
+                ],
+                "specialty_construction": [
+                    "Concrete masonry load-bearing walls, brick and block veneer, composite metal panels, lay-in ceilings, LED lighting, light gauge metal trusses, standing seam metal roof, metal evidence lockers, fire-protection specialties, hydraulic elevators, mechanical and electrical systems as per specifications.",
+                    "Installation of adjustable lab table",
+                    "Installation of ceiling mounted medical exam style light"
+                ]
+            },
+            "timeline": [
+                {
+                    "milestone": "Date Issued of RFP",
+                    "date": "December 1, 2023",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Advertisement of Request for Proposals",
+                    "date": "March 1, 2024",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Pre-Proposal Meeting",
+                    "date": "March 19, 2024",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Proposal Submission Deadline",
+                    "date": "April 2, 2024",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Award of Contract",
+                    "date": "April 15, 2024",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Pre-Construction Conference",
+                    "date": "April 23, 2024",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Substantial Completion",
+                    "date": "May 1, 2025",
+                    "status": "past_deadline"
+                },
+                {
+                    "milestone": "Final Completion",
+                    "date": "May 29, 2025",
+                    "status": "past_deadline"
+                }
+            ],
+            "procurement_overview": {
+                "rules_for_request": [
+                    "All questions shall be submitted in writing by email to Captain Barry Woods at bwoods@daltonga.gov with copy to Architect Kenneth Harless at kharless@krharchitects.com no later than five (5) business days prior to Proposal submission deadline.",
+                    "Only written changes or corrections issued by Addendum on the City\u2019s Procurement Website are binding; verbal instructions or other communications are invalid.",
+                    "Requests for substitution must be submitted in writing at least fourteen (14) calendar days prior to Proposal submission deadline with full technical data and project references.",
+                    "Proposals must include completed Proposal Form, Bid Bond, E-Verify affidavit, and all required documentation as per Instructions to Proposers."
+                ],
+                "site_visits": [
+                    "Mandatory Pre-Proposal Meeting on March 19, 2024, at 2:00 p.m. at the project site in the training room of the existing police department building; late arrivals over 5 minutes will not be permitted.",
+                    "Contractors are required to visit the Project Site to familiarize themselves with local conditions prior to submitting Proposal.",
+                    "Preproposal Meeting held on March 19, 2024 at 2:00 p.m."
+                ],
+                "rules_for_contact": [
+                    "All communication shall be directed to Captain Barry Woods via email; copying the Architect is required.",
+                    "No verbal interpretations or instructions are valid; failure to comply with communication rules may result in disqualification.",
+                    "Contractors must register with the City\u2019s Vendor Registry and obtain all addenda and correspondence from the procurement website.",
+                    "All communications and submissions must be directed to Architect and Owner as specified",
+                    "Failure to comply with submission requirements may result in application rejection",
+                    "Surety contact information must be provided at contract signing for claims and notices"
+                ]
+            },
+            "go_no_go_analysis": [
+                {
+                    "category": "Bid Bond",
+                    "severity": "critical",
+                    "reference": "Section 00010 - Request for Proposals",
+                    "description": "Proposal must include a fully executed Bid Bond in the amount of five percent (5%) of the proposed lump sum contract price; failure to include will result in rejection.",
+                    "ai_suggested_remedy": "Ensure Bid Bond is fully executed and included with the Proposal to avoid automatic rejection."
+                },
+                {
+                    "category": "E-Verify Affidavit",
+                    "severity": "critical",
+                    "reference": "Section 00010 - Request for Proposals",
+                    "description": "Proposal must include an executed E-Verify affidavit; Proposals without it will be automatically rejected.",
+                    "ai_suggested_remedy": "Include a fully executed E-Verify affidavit with the Proposal."
+                },
+                {
+                    "category": "Proposal Submission Deadline",
+                    "severity": "critical",
+                    "reference": "Section 00010 - Request for Proposals",
+                    "description": "Proposals must be received by 2:00 p.m. on April 2, 2024; late proposals will not be accepted.",
+                    "ai_suggested_remedy": "Submit Proposal before the deadline to avoid disqualification."
+                },
+                {
+                    "category": "Pre-Proposal Meeting Attendance",
+                    "severity": "critical",
+                    "reference": "Section 00010 - Request for Proposals",
+                    "description": "Attendance at the Pre-Proposal Meeting on March 19, 2024, at 2:00 p.m. is mandatory; late arrivals over 5 minutes will be denied attendance.",
+                    "ai_suggested_remedy": "Attend the Pre-Proposal Meeting on time to comply with requirements."
+                },
+                {
+                    "category": "Licenses and Insurance",
+                    "severity": "critical",
+                    "reference": "Section 00010 - Request for Proposals",
+                    "description": "Contractor must hold all necessary Federal, State, and local licenses and insurance; failure to provide satisfactory evidence will result in Proposal rejection.",
+                    "ai_suggested_remedy": "Provide evidence of all required licenses and insurance with the Proposal."
+                },
+                {
+                    "category": "Proposal Completeness",
+                    "severity": "critical",
+                    "reference": "Section 00030 - Contractor\u2019s Qualifications / Instructions",
+                    "description": "Incomplete or irregular Proposals, or those missing required Bid Bond, may be rejected.",
+                    "ai_suggested_remedy": "Ensure Proposal is complete, accurate, and includes all required forms and bonds."
+                }
+            ],
+            "quick_insights": [
+                {
+                    "title": "Project Delivery Model",
+                    "content": "The project will be delivered using the Design-Bid-Build (DBB) method."
+                },
+                {
+                    "title": "Mandatory Pre-Proposal Meeting",
+                    "content": "Attendance at the Pre-Proposal Meeting on March 19, 2024, at 2:00 p.m. is mandatory, and late arrivals over 5 minutes will not be permitted."
+                },
+                {
+                    "title": "Critical Proposal Submission Requirements",
+                    "content": "Proposals must include a fully executed Bid Bond of 5%, an executed E-Verify affidavit, and be submitted by 2:00 p.m. on April 2, 2024, or they will be rejected."
+                },
+                {
+                    "title": "Insurance and Bonding Requirements",
+                    "content": "Contractor must provide all required insurance certificates and furnish payment and performance bonds with penal sums not less than the contract price before work commencement."
+                }
+            ]
+        },
+        "requirement_analysis": {
+            "administrative_requirements": [
+                "Contractor must register with the City\u2019s Vendor Registry and download complete Contract Documents from https://www.daltonga.gov/finance/page/vendor-packets.",
+                "Contractor must attend a Pre-Proposal Meeting on March 19, 2024, at 2:00 p.m. at the project site training room; late arrivals over 5 minutes are not permitted.",
+                "Proposal must include completed Proposal Form with lump sum price, responses to all questions, and a fully executed Bid Bond of 5% of lump sum price excluding alternates and unit prices.",
+                "Proposal must include executed E-Verify Affidavit (Exhibit I); proposals without it will be rejected.",
+                "Proposal must be submitted in sealed form, plainly marked \u201cNew Building for Police Department,\u201d with 2 bound notebooks, each section/form tabbed individually.",
+                "Proposals must be received by City of Dalton Finance Department, 300 W. Waugh Street, Dalton, GA 30720, by 2:00 p.m. on April 2, 2024; late proposals will not be accepted."
+            ],
+            "evaluation_criteria": [
+                {
+                    "criterion": "General Background / Firm History",
+                    "points": 5
+                },
+                {
+                    "criterion": "Financial Status and Bonding",
+                    "points": 5
+                },
+                {
+                    "criterion": "Proposed Project Personnel",
+                    "points": 15
+                },
+                {
+                    "criterion": "Company Experience",
+                    "points": 25
+                },
+                {
+                    "criterion": "Legal Proceedings",
+                    "points": 5
+                },
+                {
+                    "criterion": "Project Specific Approach",
+                    "points": 10
+                },
+                {
+                    "criterion": "Project Specific / Company Safety Plan",
+                    "points": 5
+                },
+                {
+                    "criterion": "Contractor\u2019s Proposed Lump Sum Fee",
+                    "points": 25
+                },
+                {
+                    "criterion": "Completeness and Accuracy of Proposal",
+                    "points": 5
+                }
+            ],
+            "compliance_requirements": [
+                "Contractor must comply with O.C.G.A. \u00a7 36-91-1 et seq. and all applicable Federal, State, and local laws, rules, regulations, ordinances, and policies.",
+                "Contractor must comply with Federal work authorization program requirements per O.C.G.A. \u00a7 13-10-91 and provide affidavit verifying compliance.",
+                "Contractor must hold all necessary Federal, State, and local licenses and permits before contract award.",
+                "Contractor must maintain minimum Worker\u2019s Compensation and General Liability Insurance and provide evidence satisfactory to the City.",
+                "Contractor must submit a written oath affirming no anti-competitive practices in proposal submission."
+            ],
+            "licensing_requirements": [
+                {
+                    "requirement": "Business License and/or Occupational Tax Certificate",
+                    "notes": "Must be current and issued in the state where Contractor resides or obtained from City of Dalton / Whitfield County if awarded contract."
+                },
+                {
+                    "requirement": "Worker\u2019s Compensation Insurance",
+                    "notes": "Contractor must maintain minimum coverage and submit evidence to City."
+                },
+                {
+                    "requirement": "General Liability Insurance",
+                    "notes": "Contractor must maintain minimum coverage and submit evidence to City."
+                }
+            ],
+            "staffing_requirements": {
+                "proposal_stage": [
+                    "List names, qualifications, and backgrounds of proposed management team including resumes and relevant project experience.",
+                    "Identify principal point of contact for the project."
+                ],
+                "post_award": [
+                    "Contractor shall commence construction with adequate management, labor, materials, and equipment within 10 days after Notice to Proceed.",
+                    "Contractor shall prosecute work diligently and faithfully to completion within required contract time."
+                ]
+            },
+            "contractual_terms": {
+                "bonds": [
+                    "Bid Bond: 5% of lump sum contract price excluding alternates and unit prices, fully executed with proposal.",
+                    "Payment and Performance Bonds: each in amount of 100% of lump sum contract price, required prior to Notice to Proceed."
+                ],
+                "insurance": [
+                    "Contractor must maintain minimum Worker\u2019s Compensation and General Liability Insurance and provide Certificates of Insurance prior to Notice to Proceed."
+                ],
+                "schedule_requirements": [
+                    "Contractor must commence work within 10 days after Notice to Proceed.",
+                    "Contract Time and Substantial Completion date to be established in contract.",
+                    "Liquidated damages of $500 per calendar day for unexcused delay in Substantial Completion.",
+                    "Liquidated damages of $200 per calendar day for unexcused delay in Final Completion.",
+                    "No incentives for early completion."
+                ],
+                "governing_law": [
+                    "Contract governed by laws of the State of Georgia."
+                ]
+            },
+            "clause_information": [
+                {
+                    "clause": "Liquidated Damages for Delay",
+                    "risk_level": "medium",
+                    "ai_recommendation": "Ensure realistic schedule and monitor progress closely to avoid daily liquidated damages of $500 for Substantial Completion delay and $200 for Final Completion delay."
+                },
+                {
+                    "clause": "Withholding Payment for Defective Work or Delay",
+                    "risk_level": "medium",
+                    "ai_recommendation": "Maintain quality and schedule compliance to prevent withholding of payments or demands for return of funds."
+                },
+                {
+                    "clause": "Bid Bond and Payment/Performance Bonds Requirement",
+                    "risk_level": "low",
+                    "ai_recommendation": "Prepare and submit required bonds timely to avoid proposal rejection or contract delays."
+                },
+                {
+                    "clause": "No Warranty by Owner on Contract Documents",
+                    "risk_level": "low",
+                    "ai_recommendation": "Contractor must thoroughly review and verify contract documents and report inconsistencies before proceeding."
+                },
+                {
+                    "clause": "Contractor\u2019s Continuing Duty to Notify Owner of Document Issues",
+                    "risk_level": "low",
+                    "ai_recommendation": "Establish procedures to identify and report ambiguities or errors promptly to avoid liability."
+                }
+            ],
+            "contact_information": {
+                "questions_communication": [
+                    {
+                        "name": "Captain Barry Woods",
+                        "designation": "Primary Contact",
+                        "contact_email": "bwoods@daltonga.gov"
+                    },
+                    {
+                        "name": "Kenneth Harless",
+                        "designation": "Architect",
+                        "contact_email": "kharless@krharchitects.com"
+                    }
+                ],
+                "proposal_delivery": [
+                    "City of Dalton Finance Department",
+                    "300 W. Waugh Street, Dalton, Georgia 30720"
+                ],
+                "project_site": [
+                    "301 Jones Street, Dalton GA 30720",
+                    "Training room in the existing police department building"
+                ],
+                "document_inspection": [
+                    "KRH Architects, Inc.",
+                    "855 Abutment Road Suite 4, Dalton, GA 30721"
+                ]
+            }
+        },
+        "risks": [
+            {
+                "id": 1,
+                "name": "Lack of detailed safety plan requirements",
+                "severity": "high",
+                "what_it_is": "The RFP requires a company/project specific safety plan but provides no detailed criteria or standards for safety compliance, which may lead to inconsistent safety practices and potential OSHA violations.",
+                "original_content_snippet": "G. COMPANY / PROJECT SPECIFIC SAFETY PLAN - Include response as Tab \u201cG\u201d a. Please describe your company\u2019s approach to project safety.",
+                "pdf_pages": "6-7",
+                "business_impact": "Potential for safety incidents, regulatory fines, project delays, and increased insurance costs due to unclear safety expectations.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "safety_officer",
+                    "project_manager",
+                    "legal"
+                ],
+                "mitigation_signal": "Request detailed safety plan requirements aligned with OSHA and local safety regulations, including mandatory safety training, reporting, and enforcement protocols."
+            },
+            {
+                "id": 2,
+                "name": "Ambiguity in Contract Time and Liquidated Damages",
+                "severity": "high",
+                "what_it_is": "The Contract Time section lacks a specified date for commencement and Substantial Completion, and liquidated damages are stated but without clear milestones or allowances for excusable delays.",
+                "original_content_snippet": "3.1.1 The Contractor shall commence the Work on and shall achieve Substantial Completion of the Work no later than . The number of calendar days from the date on which the Work is permitted to proceed, through the date set forth for Substantial Completion, shall constitute the \u201cContract Time.\u201d",
+                "pdf_pages": "26-27",
+                "business_impact": "Unclear schedule milestones increase risk of disputes, potential unjustified liquidated damages, and project delays.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "legal",
+                    "exec_leadership"
+                ],
+                "mitigation_signal": "Require clear definition of contract start date, Substantial Completion date, and detailed provisions for excusable delays and extensions."
+            },
+            {
+                "id": 3,
+                "name": "Incomplete insurance and bonding requirements",
+                "severity": "medium",
+                "what_it_is": "The RFP requires minimum Worker\u2019s Compensation and General Liability insurance and submission of bonds but does not specify coverage limits, additional insured requirements, or insurance certificates standards.",
+                "original_content_snippet": "Contractor must have minimum Worker\u2019s Compensation and General Liability Insurance in full force and effect and submit evidence of such insurance policy to the satisfaction of the City.",
+                "pdf_pages": "5-6",
+                "business_impact": "Potential exposure to uninsured risks, delays in contract award, or disputes over insurance coverage adequacy.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "legal",
+                    "procurement",
+                    "risk_management"
+                ],
+                "mitigation_signal": "Request detailed insurance requirements including coverage limits, additional insured endorsements, waiver of subrogation, and certificate of insurance standards."
+            },
+            {
+                "id": 4,
+                "name": "No explicit environmental compliance requirements",
+                "severity": "medium",
+                "what_it_is": "The RFP does not explicitly address environmental compliance such as erosion control beyond referencing Division 2, or requirements for hazardous materials handling, waste disposal, or sustainability standards.",
+                "original_content_snippet": "02000 Erosion Control ......................................................................4",
+                "pdf_pages": "2-4",
+                "business_impact": "Risk of non-compliance with environmental regulations, potential fines, project delays, and reputational damage.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "safety_officer",
+                    "legal"
+                ],
+                "mitigation_signal": "Include explicit environmental compliance requirements and contractor responsibilities for permits, erosion control, waste management, and sustainability."
+            },
+            {
+                "id": 5,
+                "name": "Vague requirements for substitution requests",
+                "severity": "low",
+                "what_it_is": "The substitution request process requires multiple detailed submissions but does not specify timelines for approval or criteria for acceptance, potentially causing delays.",
+                "original_content_snippet": "The Architect will review requests for substitution submitted in accordance with the above requirements and if in the sole discretion of the Architect such substitution is in the City\u2019s interest, he will, by addendum, add the substitution to the applicable specification",
+                "pdf_pages": "7-8",
+                "business_impact": "Potential delays in approval of substitutions, impacting schedule and cost.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "procurement"
+                ],
+                "mitigation_signal": "Request clear timelines and objective criteria for substitution approvals to avoid project delays."
+            },
+            {
+                "id": 6,
+                "name": "No digital deliverables or BIM requirements specified",
+                "severity": "medium",
+                "what_it_is": "The RFP and Contract Documents do not mention requirements for Building Information Modeling (BIM), digital submittals, or virtual design coordination, which are standard in modern construction projects.",
+                "original_content_snippet": "No mention of BIM, VDC, or digital deliverables requirements in the RFP or Contract Documents.",
+                "pdf_pages": "1",
+                "business_impact": "Potential inefficiencies in coordination, increased risk of errors, and missed opportunities for cost and schedule savings.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "quality_manager",
+                    "construction_ops"
+                ],
+                "mitigation_signal": "Request inclusion of BIM or digital deliverables requirements aligned with industry best practices."
+            },
+            {
+                "id": 7,
+                "name": "Strict Liquidated Damages and Funding Delay Damages",
+                "severity": "high",
+                "what_it_is": "The Contractor is liable for liquidated damages of $200/day for unexcused delays in Final Completion and additional Funding Delay Damages related to jeopardizing Owner\u2019s state or federal funding, which are not capped by the liquidated damages.",
+                "original_content_snippet": "5.6.1.1 If the Contractor fails to achieve Final Completion within the time fixed... $200.00 per day... 5.6.1.2 The Contractor recognizes... delay could cause forfeiture of unspent funds... Funding Delay Damages... Owner shall be entitled to recover such Funding Delay Damages from the Contractor...",
+                "pdf_pages": "32-33",
+                "business_impact": "Potentially significant financial exposure for the Contractor beyond typical liquidated damages, including uncapped funding-related damages.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "legal",
+                    "finance",
+                    "exec_leadership"
+                ],
+                "mitigation_signal": "Seek to limit or cap Funding Delay Damages and clarify definitions and limits of liquidated damages."
+            },
+            {
+                "id": 8,
+                "name": "Waiver of Georgia Prompt Pay Act Rights",
+                "severity": "medium",
+                "what_it_is": "The Contractor waives rights under the Georgia Prompt Pay Act, which normally governs payment timing and interest, potentially limiting Contractor\u2019s statutory protections.",
+                "original_content_snippet": "5.6.5 The Owner and the Contractor expressly agree that the terms of payment... shall control to the exclusion of any provisions set forth in the Georgia Prompt Pay Act...",
+                "pdf_pages": "33",
+                "business_impact": "Contractor loses statutory protections for prompt payment and interest, increasing payment risk.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "legal",
+                    "finance"
+                ],
+                "mitigation_signal": "Consider retaining Prompt Pay Act protections or negotiating more favorable payment terms."
+            },
+            {
+                "id": 9,
+                "name": "Indemnity Obligations Including Defense Costs",
+                "severity": "high",
+                "what_it_is": "Contractor indemnifies Owner for all claims, including attorneys\u2019 fees and costs, even for claims wrongfully brought, with limited exceptions under Georgia law.",
+                "original_content_snippet": "7.8.1 The Contractor shall indemnify, defend and hold harmless the Owner... At the option of the Owner, the Contractor expressly agrees to defend against any claims... whether rightfully or wrongfully brought...",
+                "pdf_pages": "39-40",
+                "business_impact": "Potentially unlimited financial exposure for defense and indemnity costs, including for unfounded claims.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "legal",
+                    "exec_leadership"
+                ],
+                "mitigation_signal": "Seek to limit indemnity to claims caused by Contractor\u2019s negligence and exclude defense of wrongful claims."
+            },
+            {
+                "id": 10,
+                "name": "Strict Notice and Waiver Provisions for Claims and Time Extensions",
+                "severity": "high",
+                "what_it_is": "Contractor must provide written notice and claims within 7 days of events for all claims including concealed conditions, additional costs, and time extensions or waive rights.",
+                "original_content_snippet": "8.3.1... written notice and claim... within seven (7) days after occurrence... THE FAILURE BY THE CONTRACTOR TO PROVIDE THE WRITTEN NOTICE AND CLAIM AS PROVIDED IN THIS SECTION SHALL CONSTITUTE A WAIVER... 8.3.5... IF THE CONTRACTOR FAILS TO MAKE SUCH CLAIM AS REQUIRED IN THIS SECTION, ANY CLAIM FOR AN",
+                "pdf_pages": "42-45",
+                "business_impact": "High risk of losing entitlement to claims or time extensions due to short notice periods and strict waiver language.",
+                "recommended_position": "negotiate",
+                "who_must_approve": [
+                    "project_manager",
+                    "legal"
+                ],
+                "mitigation_signal": "Request longer notice periods and more flexible claim procedures."
+            },
+            {
+                "id": 11,
+                "name": "Owner\u2019s Right to Stop Work and Complete Work for Cause",
+                "severity": "medium",
+                "what_it_is": "Owner may stop work or terminate Contractor for cause including failure to pay Subcontractors or failure to prosecute work, and complete work at Contractor\u2019s expense.",
+                "original_content_snippet": "6.2.1... Owner may order the Contractor to stop the Work... 6.3.1... Owner may... proceed to carry out the subject Work... Contractor shall pay the difference to the Owner within ten (10) days of receipt of demand...",
+                "pdf_pages": "34-35",
+                "business_impact": "Risk of work stoppage and financial liability if Owner exercises these rights.",
+                "recommended_position": "accept",
+                "who_must_approve": [
+                    "project_manager",
+                    "legal"
+                ],
+                "mitigation_signal": "Ensure compliance and maintain good communication to avoid triggering these rights."
+            },
+            {
+                "id": 12,
+                "name": "Contractor Responsible for All Permits and Compliance",
+                "severity": "high",
+                "what_it_is": "Contractor must obtain and pay for all permits, inspections, fees, licenses, and comply with all applicable laws and regulations including labor, environmental, tax, and immigration laws.",
+                "original_content_snippet": "7.2.2 The Contractor shall obtain and pay for all permits, inspections, fees, and licenses necessary and ordinary for the Work... comply with all lawful requirements... including... Department of Labor, Environmental Protection, tax laws, workers\u2019 compensation...",
+                "pdf_pages": "36",
+                "business_impact": "Significant compliance risk and potential financial exposure for failure to comply.",
+                "recommended_position": "accept",
+                "who_must_approve": [
+                    "project_manager",
+                    "legal",
+                    "safety_officer"
+                ],
+                "mitigation_signal": "Maintain rigorous compliance program and documentation."
+            }
+        ],
+        "gaps": [
+            {
+                "id": 1,
+                "name": "Unspecified Contract Time Dates",
+                "category": "scheduling_and_milestones",
+                "severity": "critical",
+                "what_the_rfp_requires": "The Contractor shall commence the Work on and shall achieve Substantial Completion of the Work no later than . The number of calendar days from the date on which the Work is permitted to proceed, through the date set forth for Substantial Completion, shall constitute the \u201cContract Time.\u201d",
+                "original_content_snippet": "3.1.1 The Contractor shall commence the Work on and shall achieve Substantial Completion of the Work no later than . The number of calendar days from the date on which the Work is permitted to proceed, through the date set forth for Substantial Completion, shall constitute the \u201cContract Time.\u201d",
+                "pdf_pages": "26-27",
+                "material_gap": "The contract time lacks specific start and completion dates, making schedule enforcement and liquidated damages application ambiguous.",
+                "recommended_fix": "Specify exact contract commencement date and Substantial Completion date in the Contract Documents.",
+                "impact_on_timeline_or_cost": "Unclear schedule may lead to disputes, delays, and unplanned costs due to liquidated damages.",
+                "disclosure_guidance": "Disclose any assumptions about schedule milestones and request clarification before bid submission."
+            },
+            {
+                "id": 2,
+                "name": "Insufficient Safety Plan Requirements",
+                "category": "safety_and_health",
+                "severity": "high",
+                "what_the_rfp_requires": "Please describe your company\u2019s approach to project safety.",
+                "original_content_snippet": "G. COMPANY / PROJECT SPECIFIC SAFETY PLAN - Include response as Tab \u201cG\u201d a. Please describe your company\u2019s approach to project safety.",
+                "pdf_pages": "6-7",
+                "material_gap": "No detailed safety plan criteria or mandatory compliance standards are provided, risking inconsistent safety management.",
+                "recommended_fix": "Include detailed safety plan requirements referencing OSHA standards and project-specific safety protocols.",
+                "impact_on_timeline_or_cost": "Potential for safety incidents, regulatory fines, and project delays.",
+                "disclosure_guidance": "Contractors should disclose their safety management approach and any certifications or safety records."
+            },
+            {
+                "id": 3,
+                "name": "Lack of Detailed Insurance and Bonding Requirements",
+                "category": "risk_allocation_and_contract_terms",
+                "severity": "medium",
+                "what_the_rfp_requires": "Contractor must have minimum Worker\u2019s Compensation and General Liability Insurance in full force and effect and submit evidence of such insurance policy to the satisfaction of the City.",
+                "original_content_snippet": "Contractor must have minimum Worker\u2019s Compensation and General Liability Insurance in full force and effect and submit evidence of such insurance policy to the satisfaction of the City.",
+                "pdf_pages": "5-6",
+                "material_gap": "Insurance coverage limits, additional insured requirements, and certificate standards are not specified.",
+                "recommended_fix": "Define minimum coverage limits, additional insured endorsements, waiver of subrogation, and certificate of insurance requirements.",
+                "impact_on_timeline_or_cost": "Risk of insufficient coverage leading to financial exposure or delays in contract award.",
+                "disclosure_guidance": "Contractors should disclose current insurance coverage and bonding capacity."
+            },
+            {
+                "id": 4,
+                "name": "No Explicit Environmental Compliance Requirements",
+                "category": "environmental_and_sustainability",
+                "severity": "medium",
+                "what_the_rfp_requires": "02000 Erosion Control ......................................................................4",
+                "original_content_snippet": "02000 Erosion Control ......................................................................4",
+                "pdf_pages": "2-4",
+                "material_gap": "Environmental compliance responsibilities and permits are not explicitly detailed in the RFP or Contract Documents.",
+                "recommended_fix": "Include explicit environmental compliance requirements and contractor responsibilities for permits and controls.",
+                "impact_on_timeline_or_cost": "Risk of regulatory non-compliance, fines, and project delays.",
+                "disclosure_guidance": "Contractors should disclose experience with environmental compliance and permits."
+            },
+            {
+                "id": 5,
+                "name": "No BIM or Digital Deliverables Requirements",
+                "category": "digital_deliverables_BIM_VDC",
+                "severity": "medium",
+                "what_the_rfp_requires": "No mention of BIM, VDC, or digital deliverables requirements in the RFP or Contract Documents.",
+                "original_content_snippet": "No mention of BIM, VDC, or digital deliverables requirements in the RFP or Contract Documents.",
+                "pdf_pages": "1",
+                "material_gap": "Absence of BIM or digital coordination requirements may reduce efficiency and increase risk of errors.",
+                "recommended_fix": "Incorporate BIM or digital deliverables requirements consistent with industry standards.",
+                "impact_on_timeline_or_cost": "Potential inefficiencies and increased rework costs.",
+                "disclosure_guidance": "Contractors should disclose capabilities and experience with BIM and digital tools."
+            },
+            {
+                "id": 6,
+                "name": "Unclear Substitution Request Process",
+                "category": "commercial_pricing_and_bid_format",
+                "severity": "low",
+                "what_the_rfp_requires": "The Architect will review requests for substitution submitted in accordance with the above requirements and if in the sole discretion of the Architect such substitution is in the City\u2019s interest, he will, by addendum, add the substitution to the applicable specification",
+                "original_content_snippet": "The Architect will review requests for substitution submitted in accordance with the above requirements and if in the sole discretion of the Architect such substitution is in the City\u2019s interest, he will, by addendum, add the substitution to the applicable specification",
+                "pdf_pages": "7-8",
+                "material_gap": "No timelines or objective criteria for substitution approvals are provided, risking delays.",
+                "recommended_fix": "Define clear timelines and objective criteria for substitution approvals.",
+                "impact_on_timeline_or_cost": "Potential delays and cost impacts due to substitution approval process.",
+                "disclosure_guidance": "Contractors should disclose any proposed substitutions early."
+            },
+            {
+                "id": 7,
+                "name": "Lack of Clear Definition and Process for Funding Delay Damages",
+                "category": "risk_allocation_and_contract_terms",
+                "severity": "high",
+                "what_the_rfp_requires": "The Contractor is liable for Funding Delay Damages in addition to liquidated damages, but the RFP does not define these damages or provide a clear process for their assessment or dispute.",
+                "original_content_snippet": "5.6.1.2... any such Funding Delay Damages shall be in addition to the liquidated damages allowed pursuant to this Section...",
+                "pdf_pages": "33",
+                "material_gap": "No clear definition, calculation method, or dispute resolution process for Funding Delay Damages.",
+                "recommended_fix": "Include a detailed definition, calculation methodology, and dispute resolution process for Funding Delay Damages.",
+                "impact_on_timeline_or_cost": "Potential for significant unforeseen cost exposure and disputes.",
+                "disclosure_guidance": "Contractor should disclose understanding of potential uncapped damages and seek clarification."
+            },
+            {
+                "id": 8,
+                "name": "Ambiguous Schedule Float Ownership and No Contractor Claim Rights",
+                "category": "scheduling_and_milestones",
+                "severity": "high",
+                "what_the_rfp_requires": "Any float in the schedule belongs to the project and Contractor cannot claim delay, acceleration, or early completion if project completes within contract time.",
+                "original_content_snippet": "THE PARTIES SPECIFICALLY AGREE THAT ANY FLOAT CONTAINED IN THE SCHEDULES SHALL BELONG TO THE PROJECT AND IN NO EVENT SHALL THE CONTRACTOR MAKE CLAIM FOR ANY ALLEGED DELAY, ACCELERATION, OR EARLY COMPLETION SO LONG AS THE PROJECT IS COMPLETED WITHIN THE CONTRACT TIME.",
+                "pdf_pages": "37",
+                "material_gap": "No allowance for Contractor to claim entitlement for use of float or impacts on float, which is unusual and may unfairly limit Contractor\u2019s rights.",
+                "recommended_fix": "Clarify float ownership and allow Contractor to claim for impacts affecting float.",
+                "impact_on_timeline_or_cost": "Increased risk of uncompensated delays and disputes.",
+                "disclosure_guidance": "Contractor should disclose acceptance or seek negotiation on float rights."
+            },
+            {
+                "id": 9,
+                "name": "No Explicit Requirement for Safety Program or Safety Plan Submission",
+                "category": "safety_and_health",
+                "severity": "medium",
+                "what_the_rfp_requires": "The RFP states Contractor is responsible for safety but does not require submission or approval of a safety program or plan.",
+                "original_content_snippet": "7.9.1 The Contractor is fully responsible for... safety, and shall coordinate all portions of the work required by the Contract Documents.",
+                "pdf_pages": "40",
+                "material_gap": "Absence of requirement for Contractor to submit a formal safety plan or program for Owner review.",
+                "recommended_fix": "Include requirement for submission and approval of a safety plan prior to commencement of work.",
+                "impact_on_timeline_or_cost": "Potential for safety incidents and regulatory noncompliance.",
+                "disclosure_guidance": "Contractor should confirm safety plan requirements and prepare accordingly."
+            }
+        ],
+        "rfp_advisor": {
+            "rfp_rewards": [
+                {
+                    "points": 5,
+                    "evaluation_area": "General Background / Firm History",
+                    "requirement": "Contractor\u2019s company history and stability."
+                },
+                {
+                    "points": 5,
+                    "evaluation_area": "Financial Status and Bonding",
+                    "requirement": "Contractor\u2019s financial health and bonding capacity."
+                },
+                {
+                    "points": 15,
+                    "evaluation_area": "Proposed Project Personnel",
+                    "requirement": "Qualifications and experience of management team proposed for the project."
+                },
+                {
+                    "points": 25,
+                    "evaluation_area": "Company Experience",
+                    "requirement": "Relevant past projects similar in nature, scope, and duration."
+                },
+                {
+                    "points": 5,
+                    "evaluation_area": "Legal Proceedings",
+                    "requirement": "History of arbitrations, lawsuits, or legal issues."
+                },
+                {
+                    "points": 10,
+                    "evaluation_area": "Project Specific Approach",
+                    "requirement": "Contractor\u2019s approach to scheduling, labor, and procurement."
+                },
+                {
+                    "points": 5,
+                    "evaluation_area": "Project Specific / Company Safety Plan",
+                    "requirement": "Contractor\u2019s safety management approach."
+                },
+                {
+                    "points": 25,
+                    "evaluation_area": "Contractor\u2019s Proposed Lump Sum Fee",
+                    "requirement": "Cost competitiveness and completeness of pricing."
+                },
+                {
+                    "points": 5,
+                    "evaluation_area": "Completeness and Accuracy of Proposal",
+                    "requirement": "Proposal thoroughness and compliance with requirements."
+                }
+            ],
+            "scenario_based_guidance": [
+                {
+                    "title": "Perfectly compliant, strong experience, competitive price",
+                    "respond": [
+                        {
+                            "title": "Submit Complete Proposal",
+                            "content": "Include all required documents such as Bid Bond, E-Verify affidavit, Proposal Form, and respond fully to all qualification tabs."
+                        },
+                        {
+                            "title": "Demonstrate Experience and Safety",
+                            "content": "Provide strong company experience, project personnel qualifications, and a comprehensive safety plan."
+                        },
+                        {
+                            "title": "Demonstrate Experience",
+                            "content": "Highlight relevant experience with similar new building projects and adherence to schedule."
+                        },
+                        {
+                            "title": "Provide detailed schedule of tests and inspections",
+                            "content": "Submit schedule within 30 days of Notice to Proceed and coordinate with Owner and Architect."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Competitive Lump Sum Price",
+                            "content": "Offer a competitive lump sum price while ensuring compliance with all requirements."
+                        },
+                        {
+                            "title": "Attend Pre-Proposal Meeting",
+                            "content": "Attend the mandatory pre-proposal meeting on time to demonstrate commitment and gain project insights."
+                        },
+                        {
+                            "title": "Highlight Risk Mitigation",
+                            "content": "Emphasize strong project controls and compliance with contract terms to assure Owner of reliable performance and minimal risk."
+                        },
+                        {
+                            "title": "Strong Documentation",
+                            "content": "Submit thorough and timely documentation including payment applications and waivers to build Owner confidence."
+                        },
+                        {
+                            "title": "Exceed minimum quality assurance standards",
+                            "content": "Engage highly qualified specialists and testing agencies and provide proactive coordination to avoid delays."
+                        }
+                    ]
+                },
+                {
+                    "title": "Price is strong, but experience is thinner (or not similar)",
+                    "respond": [
+                        {
+                            "title": "Highlight Relevant Experience",
+                            "content": "Emphasize any similar projects and relevant skills even if overall experience is thinner."
+                        },
+                        {
+                            "title": "Ensure Compliance",
+                            "content": "Submit a fully compliant Proposal with all required documentation to avoid disqualification."
+                        },
+                        {
+                            "title": "Address Experience Gaps",
+                            "content": "Provide detailed plans for managing claims, schedule, and compliance to offset thinner experience."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Competitive Pricing",
+                            "content": "Leverage strong pricing to compensate for thinner experience."
+                        },
+                        {
+                            "title": "Strong Project Approach",
+                            "content": "Provide a detailed project-specific approach and safety plan to build confidence."
+                        },
+                        {
+                            "title": "Provide References",
+                            "content": "Include references or examples of related work to build trust despite thinner experience."
+                        },
+                        {
+                            "title": "Partner with qualified specialists",
+                            "content": "Engage experienced testing agencies and professional engineers to supplement team expertise."
+                        },
+                        {
+                            "title": "Demonstrate Commitment to Compliance",
+                            "content": "Show detailed plans for meeting all critical safety and regulatory requirements."
+                        }
+                    ]
+                },
+                {
+                    "title": "Experience is strong, but price will not be lowest",
+                    "respond": [
+                        {
+                            "title": "Justify Higher Price",
+                            "content": "Explain value added through experience, quality, and risk mitigation."
+                        },
+                        {
+                            "title": "Demonstrate Reliability",
+                            "content": "Provide references and evidence of successful similar projects."
+                        },
+                        {
+                            "title": "Highlight Experience",
+                            "content": "Emphasize strong relevant experience and past successful project completions."
+                        },
+                        {
+                            "title": "Provide detailed quality control plan",
+                            "content": "Show comprehensive approach to testing, inspections, and corrective actions."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Emphasize Quality and Safety",
+                            "content": "Highlight superior safety record and project management capabilities."
+                        },
+                        {
+                            "title": "Offer Value Engineering",
+                            "content": "Propose value engineering options or alternates to reduce cost without sacrificing quality."
+                        }
+                    ]
+                },
+                {
+                    "title": "Team is strong, but compliance/admin is the weak spot",
+                    "respond": [
+                        {
+                            "title": "Improve Administrative Compliance",
+                            "content": "Review Proposal thoroughly to ensure all forms, bonds, and affidavits are included and properly executed."
+                        },
+                        {
+                            "title": "Clarify Questions Early",
+                            "content": "Submit any questions well before the deadline to avoid last-minute issues."
+                        },
+                        {
+                            "title": "Improve Administrative Processes",
+                            "content": "Implement strict internal controls for timely claims, notices, and documentation to meet contract conditions."
+                        },
+                        {
+                            "title": "Engage Experienced Consultants",
+                            "content": "Use consultants to ensure compliance and proper documentation."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Demonstrate Responsiveness",
+                            "content": "Show willingness to correct administrative deficiencies promptly if given opportunity."
+                        },
+                        {
+                            "title": "Leverage Experience",
+                            "content": "Use strong experience and project approach to offset minor administrative weaknesses."
+                        },
+                        {
+                            "title": "Show Commitment to Compliance",
+                            "content": "Highlight steps taken to strengthen contract administration and communication with Owner and Architect."
+                        },
+                        {
+                            "title": "Streamline administrative processes",
+                            "content": "Use checklists and software tools to track compliance and deadlines."
+                        }
+                    ]
+                },
+                {
+                    "title": "Schedule looks tight / long-lead risks / staffing constraints",
+                    "respond": [
+                        {
+                            "title": "Address Schedule Risks",
+                            "content": "Provide detailed scheduling approach and mitigation plans for long-lead items."
+                        },
+                        {
+                            "title": "Resource Planning",
+                            "content": "Demonstrate adequate staffing and resource allocation to meet contract time."
+                        },
+                        {
+                            "title": "Request Schedule Adjustments",
+                            "content": "Seek written change orders for any necessary schedule extensions due to unforeseen conditions."
+                        },
+                        {
+                            "title": "Coordinate closely with testing agencies",
+                            "content": "Schedule inspections and tests to avoid delays and overtime charges."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Offer Realistic Schedule",
+                            "content": "Present a realistic and achievable schedule with contingency plans."
+                        },
+                        {
+                            "title": "Coordinate Closely with Owner and Architect",
+                            "content": "Engage early in pre-installation conferences and mockups to avoid delays."
+                        },
+                        {
+                            "title": "Demonstrate Past Success",
+                            "content": "Show examples of meeting tight schedules on similar projects."
+                        }
+                    ]
+                },
+                {
+                    "title": "Best & Final Offer (BAFO) is requested",
+                    "respond": [
+                        {
+                            "title": "Submit Best and Final Offer",
+                            "content": "Prepare a competitive and compliant best and final offer if requested by the Owner."
+                        },
+                        {
+                            "title": "Review Proposal for Improvements",
+                            "content": "Identify areas to improve pricing, schedule, or qualifications in the BAFO."
+                        }
+                    ],
+                    "win": [
+                        {
+                            "title": "Be Responsive and Flexible",
+                            "content": "Respond promptly and clearly to BAFO requests and demonstrate flexibility."
+                        },
+                        {
+                            "title": "Highlight Strengths",
+                            "content": "Reinforce key strengths such as experience, safety, and project approach in the BAFO."
+                        },
+                        {
+                            "title": "Emphasize Contractual Understanding",
+                            "content": "Highlight thorough knowledge of contract terms and risk management to reassure Owner."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

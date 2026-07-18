@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply tw-font-inter tw-bg-[#eeeeee];
+  }
+}
+
+.add-form-control{
+  @apply tw-flex tw-flex-col tw-w-full
+}
+
+.add-form-control input{
+  @apply tw-w-full
+}
+
+.btn:active:not(.btn-active){
+  translate: none !important;
+}
+
+input {
+    color: #000;
+}
+
+/* add user */
+
+.add-user-btn {
+  @apply tw-w-full tw-bg-[#fff] tw-text-black tw-text-sm tw-px-3 tw-py-2 tw-border tw-rounded-md tw-mt-1 tw-mb-2 focus:tw-outline-none focus:tw-ring-1 tw-transition-all tw-duration-200;
+}
+
+.add-vehicle-make{
+  @apply tw-w-full tw-bg-[#fff] tw-text-black tw-text-sm tw-px-3 tw-py-2 tw-border tw-rounded-md focus:tw-outline-none focus:tw-ring-1 tw-transition-all tw-duration-200;
+
+}
+
+.add-new-btn {
+  @apply tw-flex tw-justify-center tw-gap-5 tw-items-center tw-bg-[#4488ff] tw-px-4 tw-w-[150px] tw-h-[40px] tw-text-white tw-rounded-md tw-transition-all tw-duration-300 tw-ease-in-out tw-transform hover:-tw-translate-y-0.5 hover:tw-shadow-[0_4px_10px_rgba(21,96,130,0.4)] hover:tw-bg-[#4488ff];
+}
+
+.form-btn {
+  @apply tw-w-full tw-bg-white tw-text-sm tw-h-9 tw-px-3 tw-py-1 tw-mt-2 tw-border tw-rounded-md focus:tw-outline-none focus:tw-ring-1 tw-transition-all tw-duration-200 tw-placeholder-[#25333e] tw-border-[#cacaca] focus:tw-ring-[#176183] focus:tw-border-[#176183];
+}
+
+.form-with-error-btn{
+ @apply tw-w-full tw-bg-white tw-text-sm tw-h-9 tw-px-3 tw-py-1 tw-my-2  tw-border tw-rounded-md focus:tw-outline-none focus:tw-ring-1 tw-transition-all tw-duration-200
+}
+
+/* takeoff image css */
+/* @layer utilities {
+  .animate-slide-down {
+    animation: slide-down 0.5s ease-out forwards;
+  }
+
+  .animate-slide-right {
+    animation: slide-right 0.5s ease-out forwards;
+  }
+
+  @keyframes slide-down {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slide-right {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+} */
+/*  */
+
+.role-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+ 
+.role-ios-checkbox {
+  --checkbox-size: 18px;
+  --checkbox-color: #0140c1;
+  --checkbox-bg: #dbeafe;
+  --checkbox-border: rgba(0, 0, 0, 0.1);
+ 
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+ 
+.role-ios-checkbox input {
+  display: none;
+}
+ 
+.role-checkbox-wrapper {
+  position: relative;
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+ 
+.role-checkbox-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  border: 1px solid var(--checkbox-border);
+  background: white;
+  transition: all 0.2s ease;
+}
+ 
+.role-checkbox-icon {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  color: white;
+  transform: scale(0);
+  transition: all 0.2s ease;
+}
+ 
+.role-check-path {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  transition: stroke-dashoffset 0.3s ease 0.1s;
+}
+ 
+/* Checked State */
+.role-ios-checkbox input:checked + .role-checkbox-wrapper .role-checkbox-bg {
+  background: var(--checkbox-color);
+  border-color: var(--checkbox-color);
+}
+ 
+.role-ios-checkbox input:checked + .role-checkbox-wrapper .role-checkbox-icon {
+  transform: scale(1);
+}
+ 
+.role-ios-checkbox input:checked + .role-checkbox-wrapper .role-check-path {
+  stroke-dashoffset: 0;
+}
+ 
+/* Hover Effects */
+.role-ios-checkbox:hover .role-checkbox-wrapper {
+  transform: scale(1.05);
+}
+ 
+/* Active Animation */
+.role-ios-checkbox:active .role-checkbox-wrapper {
+  transform: scale(0.95);
+}
+ 
+/* Focus Styles */
+.role-ios-checkbox input:focus + .role-checkbox-wrapper .role-checkbox-bg {
+  box-shadow: 0 0 0 4px var(--checkbox-bg);
+}
+ 
+.role-ios-checkbox.red {
+  --checkbox-color: #ef4444;
+  --checkbox-bg: #fee2e2;
+  --checkbox-border: #fca5a5;
+}
+ 
+/* Animation */
+@keyframes role-bounce {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+ 
+.role-ios-checkbox input:checked + .role-checkbox-wrapper {
+  animation: role-bounce 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

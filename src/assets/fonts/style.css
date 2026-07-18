@@ -1,0 +1,753 @@
+@font-face {
+  font-family: 'PrexoAI';
+  src:  url('fonts/PrexoAI.eot?yyrq8y');
+  src:  url('fonts/PrexoAI.eot?yyrq8y#iefix') format('embedded-opentype'),
+    url('fonts/PrexoAI.ttf?yyrq8y') format('truetype'),
+    url('fonts/PrexoAI.woff?yyrq8y') format('woff'),
+    url('fonts/PrexoAI.svg?yyrq8y#PrexoAI') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PrexoAI' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-audit-logs:before {
+  content: "\e9f1";
+}
+.icon-siding-new0:before {
+  content: "\e9ef";
+}
+.icon-ceiling-new0:before {
+  content: "\e9e3";
+}
+.icon-Concrete0:before {
+  content: "\e9e4";
+}
+.icon-doors0:before {
+  content: "\e9e5";
+}
+.icon-Drywall0:before {
+  content: "\e9e6";
+}
+.icon-Electrical0:before {
+  content: "\e9e7";
+}
+.icon-flooring0:before {
+  content: "\e9e8";
+}
+.icon-HVAC0:before {
+  content: "\e9e9";
+}
+.icon-masonry0:before {
+  content: "\e9ea";
+}
+.icon-Mechanic0:before {
+  content: "\e9eb";
+}
+.icon-Painting0:before {
+  content: "\e9ec";
+}
+.icon-Plumbing0:before {
+  content: "\e9ed";
+}
+.icon-roofing0:before {
+  content: "\e9ee";
+}
+.icon-Steel0:before {
+  content: "\e9f0";
+}
+.icon-ceiling-new:before {
+  content: "\e9e1";
+}
+.icon-siding-new:before {
+  content: "\e9e2";
+}
+.icon-Concrete1:before {
+  content: "\e9d5";
+}
+.icon-doors:before {
+  content: "\e9d6";
+}
+.icon-Drywall:before {
+  content: "\e9d7";
+}
+.icon-Electrical1:before {
+  content: "\e9d8";
+}
+.icon-Flooring--Roofing:before {
+  content: "\e9d9";
+}
+.icon-HVAC1:before {
+  content: "\e9da";
+}
+.icon-masonry1:before {
+  content: "\e9db";
+}
+.icon-Mechanic:before {
+  content: "\e9dc";
+}
+.icon-Painting:before {
+  content: "\e9dd";
+}
+.icon-Plumbing:before {
+  content: "\e9de";
+}
+.icon-siding--Ceiling:before {
+  content: "\e9df";
+}
+.icon-Steel:before {
+  content: "\e9e0";
+}
+.icon-Delete-memeber:before {
+  content: "\e9d4";
+}
+.icon-All-Items:before {
+  content: "\e9d1";
+}
+.icon-Group-by:before {
+  content: "\e9d2";
+}
+.icon-Trade:before {
+  content: "\e9d3";
+}
+.icon-Labor-menu:before {
+  content: "\e9cf";
+}
+.icon-Ques-info:before {
+  content: "\e9d0";
+}
+.icon-AI-Extraction:before {
+  content: "\e9ce";
+}
+.icon-General:before {
+  content: "\e9ca";
+}
+.icon-Scope-Gap-Finder:before {
+  content: "\e9cb";
+}
+.icon-Takeoff:before {
+  content: "\e9cc";
+}
+.icon-Win-Strategist:before {
+  content: "\e9cd";
+}
+.icon-Labor-cost:before {
+  content: "\e9c9";
+}
+.icon-Areas-Analysed:before {
+  content: "\e9c7";
+}
+.icon-Error-line:before {
+  content: "\e9c8";
+}
+.icon-Business-Impact:before {
+  content: "\e9c6";
+}
+.icon-Edit-dialog:before {
+  content: "\e9c5";
+}
+.icon-warranties:before {
+  content: "\e9c4";
+}
+.icon-Unknown-Symbols:before {
+  content: "\e9c3";
+}
+.icon-AI-Detection-fill:before {
+  content: "\e9c2";
+}
+.icon-Timeline-fill:before {
+  content: "\e9c1";
+}
+.icon-Info-line:before {
+  content: "\e9c0";
+}
+.icon-Delete-fill:before {
+  content: "\e9be";
+}
+.icon-Export-PDF:before {
+  content: "\e9bf";
+}
+.icon-Alert---fill:before {
+  content: "\e9b4";
+}
+.icon-Bonds-fill:before {
+  content: "\e9b5";
+}
+.icon-Calculator-fill:before {
+  content: "\e9b6";
+}
+.icon-Communication---fill:before {
+  content: "\e9b7";
+}
+.icon-Law---fill:before {
+  content: "\e9b8";
+}
+.icon-Location---fill:before {
+  content: "\e9b9";
+}
+.icon-Post-Award--fill:before {
+  content: "\e9ba";
+}
+.icon-Proposal-Stage---fill:before {
+  content: "\e9bb";
+}
+.icon-Requirement---fill:before {
+  content: "\e9bc";
+}
+.icon-scope-of-work---fill:before {
+  content: "\e9bd";
+}
+.icon-Advanced-settings:before {
+  content: "\e9ae";
+}
+.icon-Bid-Intelligence-1:before {
+  content: "\e9af";
+}
+.icon-Bid-Intelligence:before {
+  content: "\e9b0";
+}
+.icon-Contract-Command:before {
+  content: "\e9b1";
+}
+.icon-org-package:before {
+  content: "\e9b2";
+}
+.icon-settings-line:before {
+  content: "\e9b3";
+}
+.icon-Software-cost-inputs:before {
+  content: "\e9ad";
+}
+.icon-Error:before {
+  content: "\e9ab";
+}
+.icon-Info:before {
+  content: "\e9ac";
+}
+.icon-Settings-menu:before {
+  content: "\e9a8";
+}
+.icon-Roles--Permissions:before {
+  content: "\e9a9";
+}
+.icon-Organization:before {
+  content: "\e9aa";
+}
+.icon-Admin-users:before {
+  content: "\e9a4";
+}
+.icon-Company-knowledges:before {
+  content: "\e9a5";
+}
+.icon-Packages:before {
+  content: "\e9a6";
+}
+.icon-Products:before {
+  content: "\e9a7";
+}
+.icon-PLAN:before {
+  content: "\e9a3";
+}
+.icon-AI-line:before {
+  content: "\e902";
+}
+.icon-Close:before {
+  content: "\e904";
+}
+.icon-Deactivate:before {
+  content: "\e908";
+}
+.icon-Document-analysis:before {
+  content: "\e913";
+}
+.icon-Edit:before {
+  content: "\e956";
+}
+.icon-Email-address:before {
+  content: "\e991";
+}
+.icon-Eye-hide:before {
+  content: "\e992";
+}
+.icon-Eye:before {
+  content: "\e995";
+}
+.icon-Got-it:before {
+  content: "\e99c";
+}
+.icon-Passward-reset:before {
+  content: "\e99d";
+}
+.icon-Password:before {
+  content: "\e99e";
+}
+.icon-Pre-construction-planning:before {
+  content: "\e99f";
+}
+.icon-Project-insights:before {
+  content: "\e9a0";
+}
+.icon-quotes:before {
+  content: "\e9a1";
+}
+.icon-What-happen:before {
+  content: "\e9a2";
+}
+.icon-analyze-rfp:before {
+  content: "\e915";
+}
+.icon-book:before {
+  content: "\e947";
+}
+.icon-check-box-fill:before {
+  content: "\e948";
+}
+.icon-compliance:before {
+  content: "\e949";
+}
+.icon-custom-input:before {
+  content: "\e94a";
+}
+.icon-dispute-resolution:before {
+  content: "\e94b";
+}
+.icon-edit:before {
+  content: "\e94c";
+}
+.icon-folder:before {
+  content: "\e94d";
+}
+.icon-identification:before {
+  content: "\e94e";
+}
+.icon-image:before {
+  content: "\e94f";
+}
+.icon-list:before {
+  content: "\e950";
+}
+.icon-past-projects:before {
+  content: "\e951";
+}
+.icon-paste-content:before {
+  content: "\e952";
+}
+.icon-pdf:before {
+  content: "\e953";
+}
+.icon-prepared:before {
+  content: "\e954";
+}
+.icon-priority-fixes:before {
+  content: "\e955";
+}
+.icon-scope-of-work:before {
+  content: "\e958";
+}
+.icon-sent:before {
+  content: "\e959";
+}
+.icon-template:before {
+  content: "\e95a";
+}
+.icon-upload-files:before {
+  content: "\e95b";
+}
+.icon-upload-fill:before {
+  content: "\e95c";
+}
+.icon-Alert:before {
+  content: "\e957";
+}
+.icon-Checksum:before {
+  content: "\e990";
+}
+.icon-File-Size:before {
+  content: "\e993";
+}
+.icon-File-Type:before {
+  content: "\e994";
+}
+.icon-Select-off:before {
+  content: "\e996";
+}
+.icon-Select-on:before {
+  content: "\e997";
+}
+.icon-Takeoff--Estimation:before {
+  content: "\e998";
+}
+.icon-Toggle-off:before {
+  content: "\e999";
+}
+.icon-Toggle-on:before {
+  content: "\e99a";
+}
+.icon-Uploaded-By:before {
+  content: "\e99b";
+}
+.icon-annual-hours:before {
+  content: "\e95d";
+}
+.icon-budget-variance:before {
+  content: "\e95e";
+}
+.icon-calculator:before {
+  content: "\e95f";
+}
+.icon-ceiling:before {
+  content: "\e960";
+}
+.icon-completion:before {
+  content: "\e961";
+}
+.icon-concrete-footings:before {
+  content: "\e962";
+}
+.icon-concrete-slab:before {
+  content: "\e963";
+}
+.icon-dry-wall:before {
+  content: "\e964";
+}
+.icon-flooring:before {
+  content: "\e965";
+}
+.icon-labor-budget:before {
+  content: "\e966";
+}
+.icon-masonry:before {
+  content: "\e967";
+}
+.icon-material-budget:before {
+  content: "\e968";
+}
+.icon-paint:before {
+  content: "\e969";
+}
+.icon-process:before {
+  content: "\e96a";
+}
+.icon-project-metrics:before {
+  content: "\e96b";
+}
+.icon-rework-quality:before {
+  content: "\e96c";
+}
+.icon-roi-summary:before {
+  content: "\e96d";
+}
+.icon-roofing:before {
+  content: "\e96e";
+}
+.icon-sorting:before {
+  content: "\e96f";
+}
+.icon-steel-structure:before {
+  content: "\e970";
+}
+.icon-total-markup:before {
+  content: "\e971";
+}
+.icon-Specialty-Construction-2:before {
+  content: "\e972";
+}
+.icon-Specialty-Construction-3:before {
+  content: "\e973";
+}
+.icon-Specialty-Construction-4:before {
+  content: "\e974";
+}
+.icon-Specialty-Construction-5:before {
+  content: "\e975";
+}
+.icon-Specialty-Construction-6:before {
+  content: "\e976";
+}
+.icon-Specialty-Construction:before {
+  content: "\e977";
+}
+.icon-Stop:before {
+  content: "\e978";
+}
+.icon-Target:before {
+  content: "\e979";
+}
+.icon-palm:before {
+  content: "\e97a";
+}
+.icon-Paper-Plane:before {
+  content: "\e97b";
+}
+.icon-pentagon:before {
+  content: "\e97c";
+}
+.icon-Processed:before {
+  content: "\e97d";
+}
+.icon-Remove:before {
+  content: "\e97e";
+}
+.icon-reset:before {
+  content: "\e97f";
+}
+.icon-Restoration--Repair:before {
+  content: "\e980";
+}
+.icon-ruler:before {
+  content: "\e981";
+}
+.icon-screenshot:before {
+  content: "\e982";
+}
+.icon-Site-Improvements:before {
+  content: "\e983";
+}
+.icon-Specialty-Construction-1:before {
+  content: "\e984";
+}
+.icon-Concrete:before {
+  content: "\e985";
+}
+.icon-Demolition:before {
+  content: "\e986";
+}
+.icon-Electrical:before {
+  content: "\e987";
+}
+.icon-Expansion:before {
+  content: "\e988";
+}
+.icon-Flooring:before {
+  content: "\e989";
+}
+.icon-Folder:before {
+  content: "\e98a";
+}
+.icon-HVAC:before {
+  content: "\e98b";
+}
+.icon-Menu:before {
+  content: "\e98c";
+}
+.icon-Minimize:before {
+  content: "\e98d";
+}
+.icon-New-Buildings:before {
+  content: "\e98e";
+}
+.icon-Pages:before {
+  content: "\e98f";
+}
+.icon-Strong-Technical:before {
+  content: "\e914";
+}
+.icon-Tick:before {
+  content: "\e916";
+}
+.icon-Timeline:before {
+  content: "\e917";
+}
+.icon-Upload-Document:before {
+  content: "\e918";
+}
+.icon-Uploading:before {
+  content: "\e919";
+}
+.icon-View-PDF:before {
+  content: "\e91a";
+}
+.icon-Q--A:before {
+  content: "\e91b";
+}
+.icon-Requirements:before {
+  content: "\e91c";
+}
+.icon-Respond:before {
+  content: "\e91d";
+}
+.icon-Reward:before {
+  content: "\e91e";
+}
+.icon-RFP-Doc:before {
+  content: "\e91f";
+}
+.icon-Risks:before {
+  content: "\e920";
+}
+.icon-Rules-for-Contact:before {
+  content: "\e921";
+}
+.icon-Rules-of-Request:before {
+  content: "\e922";
+}
+.icon-Schedule:before {
+  content: "\e923";
+}
+.icon-Scheduling:before {
+  content: "\e924";
+}
+.icon-Settings:before {
+  content: "\e925";
+}
+.icon-Gaps:before {
+  content: "\e926";
+}
+.icon-Go-no-go:before {
+  content: "\e927";
+}
+.icon-Law:before {
+  content: "\e928";
+}
+.icon-Location:before {
+  content: "\e929";
+}
+.icon-Overview:before {
+  content: "\e92a";
+}
+.icon-Point:before {
+  content: "\e92b";
+}
+.icon-Post-award:before {
+  content: "\e92c";
+}
+.icon-Profile:before {
+  content: "\e92d";
+}
+.icon-Project-timeline:before {
+  content: "\e92e";
+}
+.icon-Proposal-delivery:before {
+  content: "\e92f";
+}
+.icon-Proposal-stage:before {
+  content: "\e930";
+}
+.icon-Budget-Estimate:before {
+  content: "\e931";
+}
+.icon-Building:before {
+  content: "\e932";
+}
+.icon-Communication:before {
+  content: "\e933";
+}
+.icon-Construction-risk:before {
+  content: "\e934";
+}
+.icon-Design-build:before {
+  content: "\e935";
+}
+.icon-Document-inspection:before {
+  content: "\e936";
+}
+.icon-Document:before {
+  content: "\e937";
+}
+.icon-Dropdown-up:before {
+  content: "\e938";
+}
+.icon-Environmental:before {
+  content: "\e939";
+}
+.icon-Failed:before {
+  content: "\e93a";
+}
+.icon-Fee:before {
+  content: "\e93b";
+}
+.icon-AI-Requirement:before {
+  content: "\e93c";
+}
+.icon-AI-Risk-Identifier:before {
+  content: "\e93d";
+}
+.icon-AI-RPF-Advisor:before {
+  content: "\e93e";
+}
+.icon-AI-RPF-Analyzer:before {
+  content: "\e93f";
+}
+.icon-AI-Takeoff:before {
+  content: "\e940";
+}
+.icon-Background:before {
+  content: "\e941";
+}
+.icon-Bonds:before {
+  content: "\e942";
+}
+.icon-Accuracy:before {
+  content: "\e943";
+}
+.icon-Aggressive-Schedule:before {
+  content: "\e944";
+}
+.icon-AI-Drafter:before {
+  content: "\e945";
+}
+.icon-AI-Estimator:before {
+  content: "\e946";
+}
+.icon-Actions:before {
+  content: "\e900";
+}
+.icon-AI-fill:before {
+  content: "\e901";
+}
+.icon-Back:before {
+  content: "\e903";
+}
+.icon-Completed:before {
+  content: "\e905";
+}
+.icon-Delete:before {
+  content: "\e906";
+}
+.icon-Dropdown:before {
+  content: "\e907";
+}
+.icon-In-Progress:before {
+  content: "\e909";
+}
+.icon-New:before {
+  content: "\e90a";
+}
+.icon-Next:before {
+  content: "\e90b";
+}
+.icon-On-hold:before {
+  content: "\e90c";
+}
+.icon-Previous:before {
+  content: "\e90d";
+}
+.icon-Project-Details:before {
+  content: "\e90e";
+}
+.icon-Save-and-Continue:before {
+  content: "\e90f";
+}
+.icon-Search:before {
+  content: "\e910";
+}
+.icon-Total-Projects:before {
+  content: "\e911";
+}
+.icon-Upload:before {
+  content: "\e912";
+}

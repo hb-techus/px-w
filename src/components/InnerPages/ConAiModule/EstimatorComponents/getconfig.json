@@ -1,0 +1,1831 @@
+{
+    "valid": true,
+    "message": "Organization takeoff settings config fetched successfully",
+    "data": [
+        {
+            "id": "2hct6sFZAkB6Por21xcLdjwjTW2HBgMlxc32Mlxc32",
+            "takeoff_name": "flooring",
+            "trade_display_name": "Flooring",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [],
+            "types": []
+        },
+        {
+            "id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+            "takeoff_name": "ceiling",
+            "trade_display_name": "Ceiling",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [],
+            "types": []
+        },
+        {
+            "id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+            "takeoff_name": "painting",
+            "trade_display_name": "Paint",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "2hct6sFZAkB6Por21xcLdjwjTW2HBgMlxc32Mlxc32",
+                    "takeoff_id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "wall_height",
+                    "field_label": "Wall Height",
+                    "request_key": "wall_height",
+                    "default_value": 14,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "ft",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                },
+                {
+                    "id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+                    "takeoff_id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "number_of_coats",
+                    "field_label": "Number of Coats",
+                    "request_key": "number_of_coats",
+                    "default_value": 3,
+                    "min_value": 1,
+                    "max_value": 10,
+                    "unit": "count",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 2
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+            "takeoff_name": "drywall",
+            "trade_display_name": "Drywall",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                    "takeoff_id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "wall_height",
+                    "field_label": "Wall Height",
+                    "request_key": "wall_height",
+                    "default_value": 11,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "ft",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+            "takeoff_name": "roofing",
+            "trade_display_name": "Roofing",
+            "is_trade": 1,
+            "option_groups": [
+                {
+                    "group_key": "roof_pitch",
+                    "group_name": "Roof Pitch",
+                    "values": [
+                        {
+                            "id": "c2Hfa6yt5xLfOWSNn30YSQMlxc32Mlxc32",
+                            "option_key": "flat",
+                            "option_name": "Flat",
+                            "parent_option_key": null,
+                            "sort_order": 1,
+                            "is_default": false
+                        },
+                        {
+                            "id": "QHhBmQUyE3Jlb2fBoBxF9gMlxc32Mlxc32",
+                            "option_key": "1:12",
+                            "option_name": "1:12",
+                            "parent_option_key": null,
+                            "sort_order": 2,
+                            "is_default": false
+                        },
+                        {
+                            "id": "Hos11s1XGQfRwpQBqFQh4AMlxc32Mlxc32",
+                            "option_key": "2:12",
+                            "option_name": "2:12",
+                            "parent_option_key": null,
+                            "sort_order": 3,
+                            "is_default": false
+                        },
+                        {
+                            "id": "muwz5zPor21xcLdlF0UJHgN0Q8td5wMlxc32Mlxc32",
+                            "option_key": "3:12",
+                            "option_name": "3:12",
+                            "parent_option_key": null,
+                            "sort_order": 4,
+                            "is_default": false
+                        },
+                        {
+                            "id": "BNOYZVqwPor21xcLdkJqMKWF2dZAawMlxc32Mlxc32",
+                            "option_key": "4:12",
+                            "option_name": "4:12",
+                            "parent_option_key": null,
+                            "sort_order": 5,
+                            "is_default": true
+                        },
+                        {
+                            "id": "HCFtaHrvu8gvXL8yNz9mlgMlxc32Mlxc32",
+                            "option_key": "5:12",
+                            "option_name": "5:12",
+                            "parent_option_key": null,
+                            "sort_order": 6,
+                            "is_default": false
+                        },
+                        {
+                            "id": "aD5IdjFXQyPP2F7GD4AqfQMlxc32Mlxc32",
+                            "option_key": "6:12",
+                            "option_name": "6:12",
+                            "parent_option_key": null,
+                            "sort_order": 7,
+                            "is_default": false
+                        },
+                        {
+                            "id": "RBHFVXqPg0fVlrUz1mPor21xcLdbpwMlxc32Mlxc32",
+                            "option_key": "7:12",
+                            "option_name": "7:12",
+                            "parent_option_key": null,
+                            "sort_order": 8,
+                            "is_default": false
+                        },
+                        {
+                            "id": "lqrZGOEsvLfH2TqLvTxUYwMlxc32Mlxc32",
+                            "option_key": "8:12",
+                            "option_name": "8:12",
+                            "parent_option_key": null,
+                            "sort_order": 9,
+                            "is_default": false
+                        },
+                        {
+                            "id": "oJlUKwU8nxMl3xcJkGNngLwFH87BwMlxc32Mlxc32",
+                            "option_key": "9:12",
+                            "option_name": "9:12",
+                            "parent_option_key": null,
+                            "sort_order": 10,
+                            "is_default": false
+                        },
+                        {
+                            "id": "kmd4KBsmfjyKMZZrddwcOwMlxc32Mlxc32",
+                            "option_key": "10:12",
+                            "option_name": "10:12",
+                            "parent_option_key": null,
+                            "sort_order": 11,
+                            "is_default": false
+                        },
+                        {
+                            "id": "GU9k6Uv6xMl3xcJkdybQR1hGeCCxMl3xcJkgMlxc32Mlxc32",
+                            "option_key": "11:12",
+                            "option_name": "11:12",
+                            "parent_option_key": null,
+                            "sort_order": 12,
+                            "is_default": false
+                        },
+                        {
+                            "id": "ZDNF1fapyKIMTLUQP1UjpAMlxc32Mlxc32",
+                            "option_key": "12:12",
+                            "option_name": "12:12",
+                            "parent_option_key": null,
+                            "sort_order": 13,
+                            "is_default": false
+                        }
+                    ]
+                }
+            ],
+            "input_fields": [],
+            "types": []
+        },
+        {
+            "id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+            "takeoff_name": "concrete",
+            "trade_display_name": "Concrete",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [],
+            "types": [
+                {
+                    "id": "2hct6sFZAkB6Por21xcLdjwjTW2HBgMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "slab",
+                    "type_name": "Slab",
+                    "sort_order": 1,
+                    "is_default": true,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "2hct6sFZAkB6Por21xcLdjwjTW2HBgMlxc32Mlxc32",
+                            "field_key": "slab_thickness",
+                            "field_label": "Slab Thickness",
+                            "request_key": "slab_thickness",
+                            "default_value": 3,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "beam",
+                    "type_name": "Beam",
+                    "sort_order": 2,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+                            "field_key": "beam_width",
+                            "field_label": "Beam Width",
+                            "request_key": "beam_width",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 7
+                        },
+                        {
+                            "id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+                            "field_key": "beam_depth",
+                            "field_label": "Beam Depth",
+                            "request_key": "beam_depth",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 8
+                        }
+                    ]
+                },
+                {
+                    "id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "column",
+                    "type_name": "Column",
+                    "sort_order": 3,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                            "field_key": "column_height",
+                            "field_label": "Column Height",
+                            "request_key": "column_height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "lf",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 9
+                        },
+                        {
+                            "id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                            "field_key": "column_width",
+                            "field_label": "Column Width",
+                            "request_key": "column_width",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 10
+                        },
+                        {
+                            "id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                            "field_key": "column_depth",
+                            "field_label": "Column Depth",
+                            "request_key": "column_depth",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "wall",
+                    "type_name": "Wall",
+                    "sort_order": 4,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                            "field_key": "wall_height",
+                            "field_label": "Wall Height",
+                            "request_key": "wall_height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                            "field_key": "wall_thickness",
+                            "field_label": "Wall Thickness",
+                            "request_key": "wall_thickness",
+                            "default_value": 6,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "footing",
+                    "type_name": "Footing",
+                    "sort_order": 5,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+                            "field_key": "footing_width",
+                            "field_label": "Footing Width",
+                            "request_key": "footing_width",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 5
+                        },
+                        {
+                            "id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+                            "field_key": "footing_depth",
+                            "field_label": "Footing Depth",
+                            "request_key": "footing_depth",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 6
+                        }
+                    ]
+                },
+                {
+                    "id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "stair",
+                    "type_name": "Stair",
+                    "sort_order": 6,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "sYZcrcIXZk8aAnxMl3xcJkSxMl3xcJkkLNBwMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "flight_width",
+                            "field_label": "Flight Width",
+                            "request_key": "flight_width",
+                            "default_value": 4,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 12
+                        },
+                        {
+                            "id": "xMl3xcJkFBY19uba3A6ErSzxA6ZsgMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "flight_length",
+                            "field_label": "Flight Length",
+                            "request_key": "flight_length",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 13
+                        },
+                        {
+                            "id": "9RdIuMonyqNROO5NPor21xcLdzxMl3xcJkbNAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "total_raise",
+                            "field_label": "Total Raise",
+                            "request_key": "total_raise",
+                            "default_value": 8,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 14
+                        },
+                        {
+                            "id": "g1z44PexMl3xcJkTGau22rofBk8fQMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "number_of_steps",
+                            "field_label": "Number of Steps",
+                            "request_key": "number_of_steps",
+                            "default_value": 13,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "count",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 15
+                        },
+                        {
+                            "id": "OZxMl3xcJk7e31ZhcuPor21xcLdVSRQ0IP9jAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "riser_height",
+                            "field_label": "Riser Height",
+                            "request_key": "riser_height",
+                            "default_value": 7,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 16
+                        },
+                        {
+                            "id": "zsEiFfo2h6cYE1jD3h8o0gMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "tread_depth",
+                            "field_label": "Tread Depth",
+                            "request_key": "tread_depth",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 17
+                        },
+                        {
+                            "id": "3GAwNrk3rPp8nxPor21xcLdIFlOVJAMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "slab_thickness",
+                            "field_label": "Slab Thickness",
+                            "request_key": "slab_thickness",
+                            "default_value": 6,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 18
+                        },
+                        {
+                            "id": "3osBLWK8rzknfo2mlDwSjgMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "landing_length",
+                            "field_label": "Landing Length",
+                            "request_key": "landing_length",
+                            "default_value": 4,
+                            "min_value": 0,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 19
+                        },
+                        {
+                            "id": "gZN5EpJviHuolIzPor21xcLdYHMjGwMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "landing_width",
+                            "field_label": "Landing Width",
+                            "request_key": "landing_width",
+                            "default_value": 4,
+                            "min_value": 0,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 20
+                        },
+                        {
+                            "id": "c2Hfa6yt5xLfOWSNn30YSQMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "field_key": "landing_thickness",
+                            "field_label": "Landing Thickness",
+                            "request_key": "landing_thickness",
+                            "default_value": 6,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 21
+                        }
+                    ]
+                },
+                {
+                    "id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+                    "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                    "type_key": "ramp",
+                    "type_name": "Ramp",
+                    "sort_order": 7,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "ramp_slope",
+                            "group_name": "Ramp Slope",
+                            "values": [
+                                {
+                                    "id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                                    "option_key": "flat",
+                                    "option_name": "Flat",
+                                    "parent_option_key": null,
+                                    "sort_order": 1,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                                    "option_key": "1_12",
+                                    "option_name": "1:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 2,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                                    "option_key": "2_12",
+                                    "option_name": "2:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 3,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                                    "option_key": "3_12",
+                                    "option_name": "3:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 4,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "sYZcrcIXZk8aAnxMl3xcJkSxMl3xcJkkLNBwMlxc32Mlxc32",
+                                    "option_key": "4_12",
+                                    "option_name": "4:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 5,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "xMl3xcJkFBY19uba3A6ErSzxA6ZsgMlxc32Mlxc32",
+                                    "option_key": "5_12",
+                                    "option_name": "5:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 6,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "9RdIuMonyqNROO5NPor21xcLdzxMl3xcJkbNAMlxc32Mlxc32",
+                                    "option_key": "6_12",
+                                    "option_name": "6:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 7,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "g1z44PexMl3xcJkTGau22rofBk8fQMlxc32Mlxc32",
+                                    "option_key": "7_12",
+                                    "option_name": "7:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 8,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "OZxMl3xcJk7e31ZhcuPor21xcLdVSRQ0IP9jAMlxc32Mlxc32",
+                                    "option_key": "8_12",
+                                    "option_name": "8:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 9,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "zsEiFfo2h6cYE1jD3h8o0gMlxc32Mlxc32",
+                                    "option_key": "9_12",
+                                    "option_name": "9:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 10,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "3GAwNrk3rPp8nxPor21xcLdIFlOVJAMlxc32Mlxc32",
+                                    "option_key": "10_12",
+                                    "option_name": "10:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 11,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "3osBLWK8rzknfo2mlDwSjgMlxc32Mlxc32",
+                                    "option_key": "11_12",
+                                    "option_name": "11:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 12,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "gZN5EpJviHuolIzPor21xcLdYHMjGwMlxc32Mlxc32",
+                                    "option_key": "12_12",
+                                    "option_name": "12:12",
+                                    "parent_option_key": null,
+                                    "sort_order": 13,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+                            "takeoff_id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "type_id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+                            "field_key": "ramp_thickness",
+                            "field_label": "Ramp Thickness",
+                            "request_key": "ramp_thickness",
+                            "default_value": 3,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+            "takeoff_name": "siding",
+            "trade_display_name": "Siding",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "QHhBmQUyE3Jlb2fBoBxF9gMlxc32Mlxc32",
+                    "takeoff_id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "wall_height",
+                    "field_label": "Wall Height",
+                    "request_key": "wall_height",
+                    "default_value": 11,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "ft",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+            "takeoff_name": "masonry",
+            "trade_display_name": "Masonry",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "Hos11s1XGQfRwpQBqFQh4AMlxc32Mlxc32",
+                    "takeoff_id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "wall_height",
+                    "field_label": "Wall Height",
+                    "request_key": "wall_height",
+                    "default_value": 11,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "ft",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                },
+                {
+                    "id": "muwz5zPor21xcLdlF0UJHgN0Q8td5wMlxc32Mlxc32",
+                    "takeoff_id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "number_of_wythes",
+                    "field_label": "Number of wythes",
+                    "request_key": "number_of_wythes",
+                    "default_value": 1,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "count",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 2
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+            "takeoff_name": "door_window",
+            "trade_display_name": "Doors & Windows",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [],
+            "types": []
+        },
+        {
+            "id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+            "takeoff_name": "mechanical",
+            "trade_display_name": "Mechanical",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [],
+            "types": []
+        },
+        {
+            "id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+            "takeoff_name": "electrical",
+            "trade_display_name": "Electrical",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "BNOYZVqwPor21xcLdkJqMKWF2dZAawMlxc32Mlxc32",
+                    "takeoff_id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "wire_length",
+                    "field_label": "Wire Length",
+                    "request_key": "wire_length",
+                    "default_value": 10,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "lf",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+            "takeoff_name": "plumbing",
+            "trade_display_name": "Plumbing",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "HCFtaHrvu8gvXL8yNz9mlgMlxc32Mlxc32",
+                    "takeoff_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "pipe_length",
+                    "field_label": "Pipe Length",
+                    "request_key": "pipe_length",
+                    "default_value": 10,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "lf",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+            "takeoff_name": "hvac",
+            "trade_display_name": "HVAC",
+            "is_trade": 1,
+            "option_groups": [],
+            "input_fields": [
+                {
+                    "id": "aD5IdjFXQyPP2F7GD4AqfQMlxc32Mlxc32",
+                    "takeoff_id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                    "type_id": null,
+                    "field_key": "duct_length",
+                    "field_label": "Duct Length",
+                    "request_key": "duct_length",
+                    "default_value": 10,
+                    "min_value": 1,
+                    "max_value": 99,
+                    "unit": "lf",
+                    "condition_key": null,
+                    "condition_value": null,
+                    "sort_order": 1
+                }
+            ],
+            "types": []
+        },
+        {
+            "id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+            "takeoff_name": "steel",
+            "trade_display_name": "Steel",
+            "is_trade": 1,
+            "option_groups": [
+                {
+                    "group_key": "steel_category",
+                    "group_name": "Steel Category",
+                    "values": [
+                        {
+                            "id": "2hct6sFZAkB6Por21xcLdjwjTW2HBgMlxc32Mlxc32",
+                            "option_key": "rebar",
+                            "option_name": "Rebar",
+                            "parent_option_key": null,
+                            "sort_order": 1,
+                            "is_default": true
+                        },
+                        {
+                            "id": "kOPor21xcLdbi4mznPor21xcLdxMl3xcJkRTN2aS4MyJAMlxc32Mlxc32",
+                            "option_key": "mesh",
+                            "option_name": "Mesh",
+                            "parent_option_key": null,
+                            "sort_order": 2,
+                            "is_default": false
+                        },
+                        {
+                            "id": "hyYqHmXCyNmnPX8n1ogvGAMlxc32Mlxc32",
+                            "option_key": "structural_steel",
+                            "option_name": "Structural Steel",
+                            "parent_option_key": null,
+                            "sort_order": 3,
+                            "is_default": false
+                        },
+                        {
+                            "id": "QeKILXMvZIENcHhgLejzSAMlxc32Mlxc32",
+                            "option_key": "deck",
+                            "option_name": "Deck",
+                            "parent_option_key": null,
+                            "sort_order": 4,
+                            "is_default": false
+                        },
+                        {
+                            "id": "H1Por21xcLdedKgg5BKyvMuDjnhPor21xcLdSQMlxc32Mlxc32",
+                            "option_key": "purlin_joist",
+                            "option_name": "Purlin / Joist",
+                            "parent_option_key": null,
+                            "sort_order": 5,
+                            "is_default": false
+                        },
+                        {
+                            "id": "Z2BfRRHVs9vwYoBwgZJNlAMlxc32Mlxc32",
+                            "option_key": "metal_stair",
+                            "option_name": "Metal Stair",
+                            "parent_option_key": null,
+                            "sort_order": 6,
+                            "is_default": false
+                        },
+                        {
+                            "id": "nG9vJMzuVaD226WznIOT6QMlxc32Mlxc32",
+                            "option_key": "railing",
+                            "option_name": "Railing",
+                            "parent_option_key": null,
+                            "sort_order": 7,
+                            "is_default": false
+                        },
+                        {
+                            "id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                            "option_key": "misc_steel",
+                            "option_name": "Misc Steel",
+                            "parent_option_key": null,
+                            "sort_order": 8,
+                            "is_default": false
+                        }
+                    ]
+                }
+            ],
+            "input_fields": [],
+            "types": [
+                {
+                    "id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "slab",
+                    "type_name": "Slab",
+                    "sort_order": 1,
+                    "is_default": true,
+                    "option_groups": [
+                        {
+                            "group_key": "direction",
+                            "group_name": "Direction",
+                            "values": [
+                                {
+                                    "id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                                    "option_key": "one_way",
+                                    "option_name": "One Way",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                                    "option_key": "both_ways",
+                                    "option_name": "Both Ways",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": true
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "RBHFVXqPg0fVlrUz1mPor21xcLdbpwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "steel_category",
+                            "condition_value": "rebar",
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "lqrZGOEsvLfH2TqLvTxUYwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "4AflgLa6iEpQfoNdyeCb1wMlxc32Mlxc32",
+                            "field_key": "bar_length",
+                            "field_label": "Bar Length",
+                            "request_key": "bar_length",
+                            "default_value": 20,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "rebar",
+                            "sort_order": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "beam",
+                    "type_name": "Beam",
+                    "sort_order": 2,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "rebar_type",
+                            "group_name": "Rebar Type",
+                            "values": [
+                                {
+                                    "id": "xjIkDswp5oPor21xcLdqqKLRU9q4fQMlxc32Mlxc32",
+                                    "option_key": "main",
+                                    "option_name": "Main (Longitudinal)",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "7gazKK7REHialzP0hXSjngMlxc32Mlxc32",
+                                    "option_key": "stirrup",
+                                    "option_name": "Stirrup",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                }
+                            ]
+                        },
+                        {
+                            "group_key": "section_type",
+                            "group_name": "Section Type",
+                            "values": [
+                                {
+                                    "id": "KTgvxMl3xcJkCFVaRzovgzAsRv47wMlxc32Mlxc32",
+                                    "option_key": "w_beam",
+                                    "option_name": "W-Beam",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "DRCxRXq84zNPxcsyvRYprgMlxc32Mlxc32",
+                                    "option_key": "hss",
+                                    "option_name": "HSS",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "fXdOju1TdngzYS1G32HBXAMlxc32Mlxc32",
+                                    "option_key": "channel",
+                                    "option_name": "Channel",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 3,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "QBVxMl3xcJkwTALkKXdNyHaH8g6kQMlxc32Mlxc32",
+                                    "option_key": "angle",
+                                    "option_name": "Angle",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 4,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "GU9k6Uv6xMl3xcJkdybQR1hGeCCxMl3xcJkgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                            "field_key": "beam_width",
+                            "field_label": "Beam Width",
+                            "request_key": "beam_width",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "ZDNF1fapyKIMTLUQP1UjpAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                            "field_key": "beam_depth",
+                            "field_label": "Beam Depth",
+                            "request_key": "beam_depth",
+                            "default_value": 24,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "oJlUKwU8nxMl3xcJkGNngLwFH87BwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                            "field_key": "lap_length",
+                            "field_label": "Lap Length",
+                            "request_key": "lap_length",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "main",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "kmd4KBsmfjyKMZZrddwcOwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "YEoMMXjuzDlw97IRaj1nUQMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "stirrup",
+                            "sort_order": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "column",
+                    "type_name": "Column",
+                    "sort_order": 3,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "rebar_type",
+                            "group_name": "Rebar Type",
+                            "values": [
+                                {
+                                    "id": "V3S4WqxuHCuXZNVmjyZ3PwMlxc32Mlxc32",
+                                    "option_key": "vertical",
+                                    "option_name": "Vertical",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "z1IxMl3xcJkmjpIPor21xcLd5akSGlfUL00Por21xcLdwMlxc32Mlxc32",
+                                    "option_key": "tie",
+                                    "option_name": "Tie",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                }
+                            ]
+                        },
+                        {
+                            "group_key": "section_type",
+                            "group_name": "Section Type",
+                            "values": [
+                                {
+                                    "id": "q91KzCWONoCmIBcGdWfH4QMlxc32Mlxc32",
+                                    "option_key": "w_beam",
+                                    "option_name": "W-Beam",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "8H5xVQLlIkpCzoxmUCNR2wMlxc32Mlxc32",
+                                    "option_key": "hss",
+                                    "option_name": "HSS",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "b7oxMl3xcJkRVkchPor21xcLdVcIn8oUJPor21xcLdH1gMlxc32Mlxc32",
+                                    "option_key": "angle",
+                                    "option_name": "Angle",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 3,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "QBVxMl3xcJkwTALkKXdNyHaH8g6kQMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "column_width",
+                            "field_label": "Column Width",
+                            "request_key": "column_width",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "nYqRHXmPe0mXTQmE7JSxMl3xcJkxMl3xcJkgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "column_depth",
+                            "field_label": "Column Depth",
+                            "request_key": "column_depth",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "W9eHm3jMxNAsXbkOkDw0KAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "height",
+                            "field_label": "Height",
+                            "request_key": "height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "structural_steel",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "EmPejpBZpxwkidJ32ZUCewMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "bars_per_column",
+                            "field_label": "Bars per Column",
+                            "request_key": "bars_per_column",
+                            "default_value": 4,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "count",
+                            "condition_key": "rebar_type",
+                            "condition_value": "vertical",
+                            "sort_order": 4
+                        },
+                        {
+                            "id": "KTgvxMl3xcJkCFVaRzovgzAsRv47wMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "height",
+                            "field_label": "Height",
+                            "request_key": "height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "rebar_type",
+                            "condition_value": "vertical",
+                            "sort_order": 5
+                        },
+                        {
+                            "id": "DRCxRXq84zNPxcsyvRYprgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "lap_length",
+                            "field_label": "Lap Length",
+                            "request_key": "lap_length",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "vertical",
+                            "sort_order": 6
+                        },
+                        {
+                            "id": "fXdOju1TdngzYS1G32HBXAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "tie",
+                            "sort_order": 7
+                        },
+                        {
+                            "id": "6VUScHdElSX2Hu6kl9kvggMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "BELKFx7b15UQXTeggDtxMl3xcJkyQMlxc32Mlxc32",
+                            "field_key": "height",
+                            "field_label": "Height",
+                            "request_key": "height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "rebar_type",
+                            "condition_value": "tie",
+                            "sort_order": 8
+                        }
+                    ]
+                },
+                {
+                    "id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "wall",
+                    "type_name": "Wall",
+                    "sort_order": 4,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "rebar_type",
+                            "group_name": "Rebar Type",
+                            "values": [
+                                {
+                                    "id": "b5XL8byHMAnYVuzq6NKvdQMlxc32Mlxc32",
+                                    "option_key": "vertical",
+                                    "option_name": "Vertical",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "ZSWZ4PebBKaPor21xcLdyXa0OEuxKAMlxc32Mlxc32",
+                                    "option_key": "horizontal",
+                                    "option_name": "Horizontal",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "K8O1CxtiPxaMuvWqv7ocGgMlxc32Mlxc32",
+                                    "option_key": "joint_reinforcement",
+                                    "option_name": "Joint Reinforcement",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 3,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "D8B1Fi1UVqrimmGUSvLFWgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                            "field_key": "wall_height",
+                            "field_label": "Wall Height",
+                            "request_key": "wall_height",
+                            "default_value": 11,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "OTUHkv8hxMl3xcJkRZqPor21xcLd6Ke1cvlcAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "vertical",
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "u6Q3B6uZXtyPor21xcLddTemlyZ38gMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "horizontal",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "nPRX5X0xlpGn9ak65DYZEAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "7dVeFtYxqtjaXEUzyH9zcwMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "joint_reinforcement",
+                            "sort_order": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "footing",
+                    "type_name": "Footing",
+                    "sort_order": 5,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "rebar_type",
+                            "group_name": "Rebar Type",
+                            "values": [
+                                {
+                                    "id": "xMl3xcJkgm1zIDk1FbwE3GEmuMOuAMlxc32Mlxc32",
+                                    "option_key": "longitudinal",
+                                    "option_name": "Longitudinal",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "Ahbv2wY2vk0Ayzp9UukBPor21xcLdAMlxc32Mlxc32",
+                                    "option_key": "transverse",
+                                    "option_name": "Transverse",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "xjIkDswp5oPor21xcLdqqKLRU9q4fQMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "field_key": "footing_width",
+                            "field_label": "Footing Width",
+                            "request_key": "footing_width",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "q91KzCWONoCmIBcGdWfH4QMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "field_key": "lap_length",
+                            "field_label": "Lap Length",
+                            "request_key": "lap_length",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "longitudinal",
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "8H5xVQLlIkpCzoxmUCNR2wMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "transverse",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "b7oxMl3xcJkRVkchPor21xcLdVcIn8oUJPor21xcLdH1gMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "field_key": "bar_length",
+                            "field_label": "Bar Length",
+                            "request_key": "bar_length",
+                            "default_value": 3,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "rebar_type",
+                            "condition_value": "transverse",
+                            "sort_order": 4
+                        },
+                        {
+                            "id": "7gazKK7REHialzP0hXSjngMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "rlC7MbnvAPor21xcLdi7NNVDJsYB7wMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "steel_category",
+                            "condition_value": "misc_steel",
+                            "sort_order": 5
+                        }
+                    ]
+                },
+                {
+                    "id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "pile_cap",
+                    "type_name": "Pile Cap",
+                    "sort_order": 6,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "direction",
+                            "group_name": "Direction",
+                            "values": [
+                                {
+                                    "id": "W9eHm3jMxNAsXbkOkDw0KAMlxc32Mlxc32",
+                                    "option_key": "one_way",
+                                    "option_name": "One Way",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "EmPejpBZpxwkidJ32ZUCewMlxc32Mlxc32",
+                                    "option_key": "both_ways",
+                                    "option_name": "Both Ways",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": true
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "b5XL8byHMAnYVuzq6NKvdQMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "steel_category",
+                            "condition_value": "rebar",
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "ZSWZ4PebBKaPor21xcLdyXa0OEuxKAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "SyxMl3xcJkWsUHPor21xcLdP4ilP2Cc2hFRjwMlxc32Mlxc32",
+                            "field_key": "bar_length",
+                            "field_label": "Bar Length",
+                            "request_key": "bar_length",
+                            "default_value": 10,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "rebar",
+                            "sort_order": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "grade_beam",
+                    "type_name": "Grade Beam",
+                    "sort_order": 7,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "rebar_type",
+                            "group_name": "Rebar Type",
+                            "values": [
+                                {
+                                    "id": "vsZBKPUFnQiPor21xcLdnCv5B5Y1zgMlxc32Mlxc32",
+                                    "option_key": "longitudinal",
+                                    "option_name": "Longitudinal",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "m9PS4JkGggwb6M2SeEAS7gMlxc32Mlxc32",
+                                    "option_key": "transverse",
+                                    "option_name": "Transverse",
+                                    "parent_option_key": "rebar",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "K8O1CxtiPxaMuvWqv7ocGgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "field_key": "grade_beam_width",
+                            "field_label": "Grade Beam Width",
+                            "request_key": "grade_beam_width",
+                            "default_value": 1.5,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": null,
+                            "condition_value": null,
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "xMl3xcJkgm1zIDk1FbwE3GEmuMOuAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "field_key": "lap_length",
+                            "field_label": "Lap Length",
+                            "request_key": "lap_length",
+                            "default_value": 18,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "longitudinal",
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "Ahbv2wY2vk0Ayzp9UukBPor21xcLdAMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "rebar_type",
+                            "condition_value": "transverse",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "vsZBKPUFnQiPor21xcLdnCv5B5Y1zgMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "field_key": "bar_length",
+                            "field_label": "Bar Length",
+                            "request_key": "bar_length",
+                            "default_value": 3,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "rebar_type",
+                            "condition_value": "transverse",
+                            "sort_order": 4
+                        },
+                        {
+                            "id": "m9PS4JkGggwb6M2SeEAS7gMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "field_key": "spacing",
+                            "field_label": "Spacing",
+                            "request_key": "spacing",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "in",
+                            "condition_key": "steel_category",
+                            "condition_value": "misc_steel",
+                            "sort_order": 5
+                        }
+                    ]
+                },
+                {
+                    "id": "sYZcrcIXZk8aAnxMl3xcJkSxMl3xcJkkLNBwMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "stair",
+                    "type_name": "Stair",
+                    "sort_order": 8,
+                    "is_default": false,
+                    "option_groups": [],
+                    "input_fields": [
+                        {
+                            "id": "V3S4WqxuHCuXZNVmjyZ3PwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "sYZcrcIXZk8aAnxMl3xcJkSxMl3xcJkkLNBwMlxc32Mlxc32",
+                            "field_key": "length",
+                            "field_label": "Length",
+                            "request_key": "length",
+                            "default_value": 12,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "railing",
+                            "sort_order": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "xMl3xcJkFBY19uba3A6ErSzxA6ZsgMlxc32Mlxc32",
+                    "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                    "type_key": "roof_deck",
+                    "type_name": "Roof Deck",
+                    "sort_order": 9,
+                    "is_default": false,
+                    "option_groups": [
+                        {
+                            "group_key": "section_type",
+                            "group_name": "Section Type",
+                            "values": [
+                                {
+                                    "id": "nYqRHXmPe0mXTQmE7JSxMl3xcJkxMl3xcJkgMlxc32Mlxc32",
+                                    "option_key": "w_beam",
+                                    "option_name": "W-Beam",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 1,
+                                    "is_default": true
+                                },
+                                {
+                                    "id": "6VUScHdElSX2Hu6kl9kvggMlxc32Mlxc32",
+                                    "option_key": "hss",
+                                    "option_name": "HSS",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 2,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "D8B1Fi1UVqrimmGUSvLFWgMlxc32Mlxc32",
+                                    "option_key": "channel",
+                                    "option_name": "Channel",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 3,
+                                    "is_default": false
+                                },
+                                {
+                                    "id": "OTUHkv8hxMl3xcJkRZqPor21xcLd6Ke1cvlcAMlxc32Mlxc32",
+                                    "option_key": "angle",
+                                    "option_name": "Angle",
+                                    "parent_option_key": "structural_steel",
+                                    "sort_order": 4,
+                                    "is_default": false
+                                }
+                            ]
+                        }
+                    ],
+                    "input_fields": [
+                        {
+                            "id": "z1IxMl3xcJkmjpIPor21xcLd5akSGlfUL00Por21xcLdwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "xMl3xcJkFBY19uba3A6ErSzxA6ZsgMlxc32Mlxc32",
+                            "field_key": "length_per_member",
+                            "field_label": "Length per Member",
+                            "request_key": "length_per_member",
+                            "default_value": 20,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "purlin_joist",
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "kEv36i9Cr4XmZt8MNAdeMwMlxc32Mlxc32",
+                            "takeoff_id": "6OBhN9TC17qCuFfYFCxMl3xcJkqkAMlxc32Mlxc32",
+                            "type_id": "xMl3xcJkFBY19uba3A6ErSzxA6ZsgMlxc32Mlxc32",
+                            "field_key": "length_per_member",
+                            "field_label": "Length per Member",
+                            "request_key": "length_per_member",
+                            "default_value": 20,
+                            "min_value": 1,
+                            "max_value": 99,
+                            "unit": "ft",
+                            "condition_key": "steel_category",
+                            "condition_value": "structural_steel",
+                            "sort_order": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+/* FileViewer.css */
+
+.fv-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    font-family: system-ui, sans-serif;
+  }
+  
+  /* ── toolbar ── */
+  .fv-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    gap: 12px;
+  }
+  .fv-filename {
+    font-size: 13px;
+    font-weight: 600;
+    color: #334155;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fv-download {
+    font-size: 12px;
+    color: #3b82f6;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .fv-download:hover { text-decoration: underline; }
+  
+  /* ── body ── */
+  .fv-body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* ── iframe (PDF / PPTX) ── */
+  .fv-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+  
+  /* ── plain text ── */
+  .fv-txt {
+    margin: 0;
+    padding: 16px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #1e293b;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: #fafafa;
+  }
+  
+  /* ── docx html ── */
+  .fv-docx {
+    padding: 24px 32px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1e293b;
+  }
+  .fv-docx h1,.fv-docx h2,.fv-docx h3 { margin: 1em 0 .4em; }
+  .fv-docx p  { margin: .5em 0; }
+  .fv-docx table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+  .fv-docx td,.fv-docx th {
+    border: 1px solid #cbd5e1;
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+  
+  /* ── spreadsheet / csv ── */
+  .fv-table-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .fv-tabs {
+    display: flex;
+    gap: 2px;
+    padding: 6px 8px 0;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+  }
+  .fv-tab {
+    padding: 4px 12px;
+    font-size: 12px;
+    border: 1px solid #cbd5e1;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    background: #f1f5f9;
+    cursor: pointer;
+    color: #475569;
+  }
+  .fv-tab.active {
+    background: #fff;
+    color: #1d4ed8;
+    font-weight: 600;
+  }
+  .fv-table-scroll {
+    flex: 1;
+    overflow: auto;
+  }
+  .fv-table {
+    border-collapse: collapse;
+    width: max-content;
+    min-width: 100%;
+    font-size: 13px;
+  }
+  .fv-table th {
+    position: sticky;
+    top: 0;
+    background: #f1f5f9;
+    color: #334155;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid #e2e8f0;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .fv-table td {
+    padding: 6px 12px;
+    border: 1px solid #f1f5f9;
+    color: #475569;
+    white-space: nowrap;
+  }
+  .fv-table tr:nth-child(even) td { background: #f8fafc; }
+  .fv-table tr:hover td { background: #eff6ff; }
+  
+  /* ── pdf canvas ── */
+  .fv-pdf-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .fv-pdf-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: #f1f5f9;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 13px;
+    color: #334155;
+  }
+  .fv-pdf-bar button {
+    padding: 3px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    color: #334155;
+  }
+  .fv-pdf-bar button:disabled { opacity: 0.4; cursor: default; }
+  .fv-pdf-bar button:not(:disabled):hover { background: #e2e8f0; }
+  .fv-pdf-canvas-wrap {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background: #64748b;
+  }
+  .fv-pdf-canvas-wrap canvas {
+    box-shadow: 0 4px 16px rgba(0,0,0,.4);
+    background: #fff;
+  }
+  
+  /* ── loading ── */
+  .fv-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    /* height: 200px; */
+    color: #64748b;
+    font-size: 14px;
+  }
+  .fv-spinner {
+    width: 32px; height: 32px;
+    border: 3px solid #e2e8f0;
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  
+  /* ── error / empty ── */
+  .fv-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+    color: #ef4444;
+    font-size: 14px;
+  }
+  .fv-error button {
+    padding: 6px 16px;
+    border: 1px solid #ef4444;
+    border-radius: 6px;
+    background: #fff;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .fv-error button:hover { background: #fef2f2; }
+  .fv-empty {
+    padding: 24px;
+    color: #94a3b8;
+    font-size: 14px;
+    font-family: system-ui, sans-serif;
+  }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes drawCheck {
+          from { stroke-dashoffset: 14; }
+          to   { stroke-dashoffset: 0;  }
+        }
+        @keyframes popIn {
+          0%   { transform: scale(0.5); opacity: 0; }
+          80%  { transform: scale(1.15); }
+          100% { transform: scale(1); opacity: 1; }
+        }

@@ -1,0 +1,594 @@
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* INTER  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* Custom scrollbar for CustomSelect dropdown */
+.custom-select-dropdown::-webkit-scrollbar {
+  width: 8px !important;
+  /* Make the scrollbar visible */
+}
+
+.custom-select-dropdown::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  /* Scrollbar thumb color */
+  border-radius: 4px !important;
+  /* Rounded corners */
+}
+
+.custom-select-dropdown::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+  /* Track color */
+}
+
+/* scroll bar visible */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Optional: for Firefox */
+body {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+html {
+  background-color: #eeeeee !important;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  top: 2px;
+  left: 6px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background: #fff;
+}
+
+input[type="checkbox"]:checked {
+  background: #1d4ed8;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+
+  width: 5px;
+  height: 9px;
+
+  border: solid white;
+  border-width: 0 2px 2px 0;
+
+  transform: translate(-50%, -50%) rotate(45deg);
+
+  top: 40%;
+  left: 50%;
+}
+.custom-select-dropdown::-webkit-scrollbar {
+  width: 5px !important;
+  height: 8px !important;
+}
+
+.custom-select-dropdown::-webkit-scrollbar-thumb {
+  background: #9ca3af !important;
+  border-radius: 4px !important;
+}
+
+.custom-select-dropdown::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+/*  */
+
+/* login animations*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* toast message */
+/* Apply custom font to all toast content */
+.Toastify__toast {
+  font-family: 'Poppins' !important;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 48px !important;
+}
+
+/* crop styles */
+.ReactCrop {
+  cursor: move;
+}
+
+.ReactCrop__crop-selection {
+  cursor: move;
+}
+
+.ReactCrop__drag-handle {
+  cursor: nwse-resize !important;
+}
+
+
+/* react table */
+/* react table */
+
+.rdt_TableBody {
+  background-color: #ffffff !important;
+}
+
+.rdt_Table {
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.rdt_TableRow {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  color: #585858 !important;
+  font-size: 15px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  cursor: default !important;
+}
+
+.rdt_TableRow:hover {
+  background-color: #f9fafb !important;
+}
+
+.rdt_TableHeadRow {
+  background-color: #fafafa !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  min-height: 48px !important;
+}
+
+.rdt_ExpanderRow {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+}
+
+.fsQblY,
+.cocSnr {
+  border: none !important;
+}
+
+/* Hide default DataTable pagination — using external custom pagination */
+.rdt_Pagination {
+  display: none !important;
+}
+
+
+/* calender */
+
+.react-datepicker {
+  font-size: 12px;
+  border-radius: 12px;
+  font-family: 'Poppins' !important;
+  border: 1px solid #0140c1 !important;
+}
+
+.react-datepicker__day--in-range {
+  background-color: #d0e5ed !important;
+  color: #0140c1 !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--range-start,
+.react-datepicker__day--range-end {
+  background-color: #0140c1 !important;
+  color: white !important;
+}
+
+.react-datepicker__header {
+  border-top-left-radius: 0px !important;
+  background-color: #0140c1 !important;
+}
+
+.react-datepicker__header h2,
+.react-datepicker__day--today:hover {
+  color: white !important;
+}
+
+.react-datepicker__current-month {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: white !important;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  top: 8px !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #d0e5ed !important;
+  color: #0140c1 !important;
+}
+
+/* This ensures the datepicker container fills the div width */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__day-name {
+  color: white !important;
+}
+
+/* Optional: Make the time list taller */
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 100px !important;
+}
+
+/* Adjust width to prevent horizontal overflow */
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 100% !important;
+  /* Change from 100px to 100% or a fixed width that fits */
+}
+
+/* Ensure the blue background spans correctly without gaps */
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  padding: 5px 0 !important;
+  margin: 0 !important;
+  color: #333 !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: #0140c1 !important;
+  color: white !important;
+}
+
+.react-datepicker {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* pagination */
+
+.rdt_Pagination {
+  justify-content: start !important;
+}
+
+.ekcsgb {
+  flex-grow: 1;
+}
+
+/* Custom Pagination Layout */
+.rdt_Pagination {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+/* Left side text (Results info + Rows per page dropdown) */
+.rdt_Pagination>div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Right side pagination numbers */
+.rdt_Pagination>div:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Ensure dropdown aligns cleanly */
+.rdt_Pagination select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 2px 8px;
+  background-color: #f9fafb;
+  font-size: 13px;
+  outline: none;
+}
+
+.cvFfSA {
+  border: 1px solid #0140c1;
+  border-radius: 5px;
+}
+
+
+.jfbKUc span.__rdt_custom_sort_icon__.asc i,
+.jfbKUc span.__rdt_custom_sort_icon__.asc svg {
+  transform: rotate(270deg) !important;
+}
+
+.jfbKUc span.__rdt_custom_sort_icon__.desc i,
+.jfbKUc span.__rdt_custom_sort_icon__.desc svg {
+  transform: rotate(90deg) !important;
+}
+
+
+
+/* drawer */
+
+.rs-drawer-header .rs-drawer-header-close {
+  right: 15px !important;
+  width: 30px !important;
+  left: 90% !important;
+}
+
+.rs-btn-subtle {
+  border-radius: 50px !important;
+}
+
+.rs-btn-subtle:hover {
+  background-color: rgba(157, 155, 155, 0.467) !important;
+  border-radius: 50px !important;
+}
+
+.jfbKUc span.__rdt_custom_sort_icon__.asc i,
+.jfbKUc span.__rdt_custom_sort_icon__.asc svg {
+  transform: rotate(270deg) !important;
+}
+
+.jfbKUc span.__rdt_custom_sort_icon__.desc i,
+.jfbKUc span.__rdt_custom_sort_icon__.desc svg {
+  transform: rotate(90deg) !important;
+}
+
+/* image profile */
+
+.cCedLX {
+  padding-right: 0px !important;
+}
+
+.fsQblY:hover {
+  cursor: auto !important;
+}
+
+/* Shimmer table design*/
+.shimmer-table-row--header {
+  background-color: #e0e0e0ba !important
+}
+
+.rdt_TableCol {
+  color: #6e7178 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+
+}
+
+.shimmer-table-row {
+  padding: 20px 0 !important;
+  margin-bottom: 5px !important;
+}
+
+.shimmer-thumbnail {
+  margin-bottom: 0px !important;
+}
+
+.custom-table .rdt_Table {
+  height: 73vh !important;
+  overflow-y: scroll !important;
+  scrollbar-width: thin !important;
+}
+
+.custom-table .rdt_TableHead {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 1;
+}
+
+
+@keyframes shimmerSlide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.tw-animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmerSlide 1.6s infinite linear;
+}
+
+
+/*  */
+/* .quill-tooltip {
+  position: fixed;
+  transform: translateX(-50%) translateY(-100%);
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 999999;
+} */
+
+.quill-global-tooltip {
+  position: fixed;
+  transform: translate(-50%, -100%);
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 999999;
+}
+
+.react-datepicker__input-container input {
+  border: 1px solid #d1d5dc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 14px;
+
+}
+
+/*  */
+.project-table .rdt_TableRow {
+  height: 85px !important;
+}
+
+
+.project-table>div>div:first-child {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.tippy-box[data-theme~='custom'] {
+  background-color: #0140c1 !important;
+  color: white !important;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.tippy-box[data-theme~='custom'] .tippy-arrow {
+  color: #0140c1 !important;
+}
+
+.tippy-box[data-theme~='sidebar'] {
+  background-color: #0140c1 !important;
+  /* tooltip background */
+  color: white;
+  /* text color */
+  font-size: 12px;
+  padding: 6px 6px;
+  border-radius: 4px;
+}
+
+.tippy-box[data-theme~='sidebar'] .tippy-arrow {
+  color: #0140c1 !important;
+}
+
+
+/* ============================================
+   PDF TEXT HIGHLIGHTING - ADD THESE RULES
+   ============================================ */
+
+/* Ensure text layer is visible and clickable */
+.react-pdf__Page__textContent {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 2 !important;
+}
+
+/* Make text spans selectable but invisible by default */
+.react-pdf__Page__textContent span {
+  color: transparent !important;
+  user-select: text !important;
+}
+
+/* Highlight styling - this is what makes the yellow highlighting visible */
+.pdf-highlight {
+  background-color: rgba(255, 255, 0, 0.6) !important;
+  color: transparent !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 0 1px rgba(255, 215, 0, 0.5) !important;
+  z-index: 3 !important;
+}
+
+/* Optional: hover effect on highlights */
+.pdf-highlight:hover {
+  background-color: rgba(255, 255, 0, 0.75) !important;
+}
+
+.react-pdf__Page {
+  position: relative !important;
+}
+
+/* lastpass */
+div[data-lastpass-icon-root],
+iframe[src*="lastpass.com"],
+input[data-lastpass-icon-root] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tags-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.tags-scroll::-webkit-scrollbar-track {
+  background: #eff6ff;
+  /* blue-50 — very light blue */
+  border-radius: 999px;
+}
+
+.tags-scroll::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  /* blue-500 */
+  border-radius: 999px;
+}
+
+.tags-scroll::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+  /* blue-600 — darker on hover */
+}
+
+.custom-visible-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #dee9ff transparent;
+}
+
+.custom-visible-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-visible-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-visible-scroll::-webkit-scrollbar-thumb {
+  background-color: #dee9ff;
+  border-radius: 999px;
+}
+
+.custom-visible-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #bfd4ff;
+}
